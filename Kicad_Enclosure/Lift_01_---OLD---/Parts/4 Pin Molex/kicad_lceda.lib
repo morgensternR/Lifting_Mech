@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 39-30-0040
+#
+DEF 39-30-0040 U 0 40 Y Y 1 F N
+F0 "U" 0 206 50 H V C CNN
+F1 "39-30-0040" 0 406 50 H V C CNN
+F2 "kicad_lceda:CONN-SMD_39-30-0040" 0 6 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_233957.html" 0 -194 50 H I C CNN
+F4 "C234187" 0 -394 50 H I C CNN "SuppliersPartNumber"
+F5 "std:55c73b25c94048edbd22e72a5902e7c5" 0 -394 50 H I C CNN "uuid"
+DRAW
+S -200 100 200 -200 1 1 6 N
+X 1 1 -400 0 200 R 50 50 1 1 I 
+X 2 2 -400 -100 200 R 50 50 1 1 I 
+X 3 3 400 -100 200 L 50 50 1 1 I 
+X 4 4 400 0 200 L 50 50 1 1 I 
+ENDDRAW
+ENDDEF
+
+#
+#End Library

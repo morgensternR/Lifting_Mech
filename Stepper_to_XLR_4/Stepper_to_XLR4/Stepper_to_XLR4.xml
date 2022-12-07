@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Cir\Documents\GitHub\LiftingCircuit+Enclosure\Stepper_to_XLR_4\Stepper_to_XLR4\Stepper_to_XLR4.sch</source>
+    <date>2/10/2022 5:04:23 PM</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Stepper_to_XLR4.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_01x04_Female</value>
+      <footprint>Connector:1x4 Hole Header_4mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6206135C</tstamp>
+    </comp>
+    <comp ref="PS1">
+      <value>NC4FBH</value>
+      <footprint>Connector:CONN-TH_NC4FBH_XLR4_Female_RA_Panel</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_342465.html</datasheet>
+      <fields>
+        <field name="LCSC">C368478</field>
+        <field name="SuppliersPartNumber">C368478</field>
+      </fields>
+      <libsource lib="0My_Library" part="NC4FBH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>620637CE</tstamp>
+    </comp>
+    <comp ref="MH1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="0My_Library" part="MountingHole" description="Generic Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62066693</tstamp>
+    </comp>
+    <comp ref="MH2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="0My_Library" part="MountingHole" description="Generic Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>620676B0</tstamp>
+    </comp>
+    <comp ref="MH3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="0My_Library" part="MountingHole" description="Generic Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62067B2E</tstamp>
+    </comp>
+    <comp ref="MH4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="0My_Library" part="MountingHole" description="Generic Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6206813C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0My_Library" part="MountingHole">
+      <description>Generic Mounting Hole</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+        <fp>Mounting*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MH</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0My_Library" part="NC4FBH">
+      <docs>http://www.szlcsc.com/product/details_342465.html</docs>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">NC4FBH</field>
+        <field name="Footprint">kicad_lceda:CONN-TH_NC4FBH</field>
+        <field name="SuppliersPartNumber">C368478</field>
+        <field name="LCSC">std:240b847a4e2e4ed7980c8865ae95f7a5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0My_Library">
+      <uri>C:/Users/Cir/Documents/Kicad/MainLibrary/0My_Library.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>E:\Program Files\KiCAD\share\kicad\library/Connector.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="PS1" pin="5"/>
+      <node ref="MH1" pin="1"/>
+      <node ref="MH2" pin="1"/>
+      <node ref="MH3" pin="1"/>
+      <node ref="MH4" pin="1"/>
+    </net>
+    <net code="2" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="PS1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(J1-Pad4)">
+      <node ref="PS1" pin="4"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="4" name="Net-(J1-Pad3)">
+      <node ref="PS1" pin="3"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="5" name="Net-(J1-Pad2)">
+      <node ref="PS1" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+  </nets>
+</export>

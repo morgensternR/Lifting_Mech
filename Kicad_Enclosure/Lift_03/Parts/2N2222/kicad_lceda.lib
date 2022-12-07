@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 2N2222A
+#
+DEF 2N2222A Q 0 40 N N 1 F N
+F0 "Q" 0 320 50 H V C CNN
+F1 "2N2222A" 0 520 50 H V C CNN
+F2 "kicad_lceda:TO-92-3_L4.8-W3.7-P2.54-R" 0 120 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_333502.html" 0 -80 50 H I C CNN
+F4 "C358533" 0 -280 50 H I C CNN "SuppliersPartNumber"
+F5 "std:4160acdcbf3c44b7857840e3de817f0d" 0 -280 50 H I C CNN "uuid"
+DRAW
+X C 1 100 200 100 D 50 50 1 1 I 
+X B 2 -100 0 100 R 50 50 1 1 I 
+X E 3 100 -200 100 U 50 50 1 1 I 
+P 2 1 1 6 100 100 0 30 N
+P 2 1 1 6 0 -30 100 -100 N
+P 2 1 1 6 0 90 0 -90 N
+P 4 1 1 6 100 -100 70 -50 40 -90 100 -100 F
+ENDDRAW
+ENDDEF
+
+#
+#End Library

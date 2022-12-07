@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SS3150/SMB
+#
+DEF SS3150/SMB D 0 40 N N 1 F N
+F0 "D" 0 160 50 H V C CNN
+F1 "SS3150/SMB" 0 360 50 H V C CNN
+F2 "kicad_lceda:SMB_L4.6-W3.6-LS5.3-R-RD" 0 -40 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_48129.html" 0 -240 50 H I C CNN
+F4 "C47124" 0 -440 50 H I C CNN "SuppliersPartNumber"
+F5 "std:250485d93c4fcfd3cd3b0489948e2ff7" 0 -440 50 H I C CNN "uuid"
+DRAW
+P 2 1 1 6 -50 -60 -50 60 N
+X A 1 200 0 150 L 50 50 1 1 I 
+X K 2 -200 0 150 R 50 50 1 1 I 
+P 4 1 1 6 50 60 -50 0 50 -60 50 60 F
+ENDDRAW
+ENDDEF
+
+#
+#End Library

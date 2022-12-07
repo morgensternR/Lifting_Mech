@@ -1,0 +1,932 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Cir\Documents\GitHub\LiftingCircuit+Enclosure\Kicad_Enclosure\Lifting_Mech_PCB_Mount\Lifting_Mech_PCB_Mount.sch</source>
+    <date>1/25/2022 7:14:14 PM</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>lun. 30 mars 2015</date>
+        <source>Lifting_Mech_PCB_Mount.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>Power</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x08</footprint>
+      <fields>
+        <field name="LCSC">C124381</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D70129</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Analog</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x06</footprint>
+      <fields>
+        <field name="LCSC">C190819</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D70DD8</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D71177</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D71274</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D712A8</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D712DB</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>Digital</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x08</footprint>
+      <fields>
+        <field name="LCSC">C124381</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D7164F</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>Digital</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x10</footprint>
+      <fields>
+        <field name="LCSC">C124372</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D721E0</tstamp>
+    </comp>
+    <comp ref="H9">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F31BA6</tstamp>
+    </comp>
+    <comp ref="H10">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F324DB</tstamp>
+    </comp>
+    <comp ref="H11">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F3370C</tstamp>
+    </comp>
+    <comp ref="H12">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F349F4</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F399B8</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F399BE</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F399C4</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_5.3mm_M5_DIN965_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F399CA</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F3B517</tstamp>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F3B51D</tstamp>
+    </comp>
+    <comp ref="H7">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F3B523</tstamp>
+    </comp>
+    <comp ref="H8">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F3B529</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>NUD3160LT</value>
+      <footprint>Connector:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_747998.html</datasheet>
+      <fields>
+        <field name="LCSC">C710040</field>
+        <field name="uuid">std:7e585bf7d09b4e0b9519328d48b2c542</field>
+      </fields>
+      <libsource lib="0My_Library" part="NUD3160LT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F1D85F</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>NUD3160LT</value>
+      <footprint>Connector:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_747998.html</datasheet>
+      <fields>
+        <field name="LCSC">C710040</field>
+        <field name="uuid">std:7e585bf7d09b4e0b9519328d48b2c542</field>
+      </fields>
+      <libsource lib="0My_Library" part="NUD3160LT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F1F8FD</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>NUD3160LT</value>
+      <footprint>Connector:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_747998.html</datasheet>
+      <fields>
+        <field name="LCSC">C710040</field>
+        <field name="uuid">std:7e585bf7d09b4e0b9519328d48b2c542</field>
+      </fields>
+      <libsource lib="0My_Library" part="NUD3160LT" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F3B533</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>SM03B-SRSS-TB(LF)(SN)(P)</value>
+      <footprint>Connector:CONN-SMD_SM03B-SRSS-TB-LF-SN-P</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_171783.html</datasheet>
+      <fields>
+        <field name="LCSC">C160403</field>
+        <field name="uuid">std:1709169c777d454d9fe18ecc64314d33</field>
+      </fields>
+      <libsource lib="0My_Library" part="SM03B-SRSS-TB(LF)(SN)(P)" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F99057</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>SM03B-SRSS-TB(LF)(SN)(P)</value>
+      <footprint>Connector:CONN-SMD_SM03B-SRSS-TB-LF-SN-P</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_171783.html</datasheet>
+      <fields>
+        <field name="LCSC">C160403</field>
+        <field name="uuid">std:1709169c777d454d9fe18ecc64314d33</field>
+      </fields>
+      <libsource lib="0My_Library" part="SM03B-SRSS-TB(LF)(SN)(P)" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FB8A29</tstamp>
+    </comp>
+    <comp ref="RJ3">
+      <value>PCB-6P6C-90</value>
+      <footprint>Connector:RJ11-TH_PCB-6P6C-90</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_203237.html</datasheet>
+      <fields>
+        <field name="LCSC">C189750</field>
+        <field name="uuid">std:b0744a81ab3b40a89a286e2b8b0ab87e</field>
+      </fields>
+      <libsource lib="0My_Library" part="PCB-6P6C-90" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>620C2611</tstamp>
+    </comp>
+    <comp ref="RJ4">
+      <value>PCB-6P6C-90</value>
+      <footprint>Connector:RJ11-TH_PCB-6P6C-90</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_203237.html</datasheet>
+      <fields>
+        <field name="LCSC">C189750</field>
+        <field name="uuid">std:b0744a81ab3b40a89a286e2b8b0ab87e</field>
+      </fields>
+      <libsource lib="0My_Library" part="PCB-6P6C-90" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>620C4521</tstamp>
+    </comp>
+    <comp ref="RJ5">
+      <value>PCB-6P6C-90</value>
+      <footprint>Connector:RJ11-TH_PCB-6P6C-90</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_203237.html</datasheet>
+      <fields>
+        <field name="LCSC">C189750</field>
+        <field name="uuid">std:b0744a81ab3b40a89a286e2b8b0ab87e</field>
+      </fields>
+      <libsource lib="0My_Library" part="PCB-6P6C-90" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6212231D</tstamp>
+    </comp>
+    <comp ref="RJ6">
+      <value>PCB-6P6C-90</value>
+      <footprint>Connector:RJ11-TH_PCB-6P6C-90</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_203237.html</datasheet>
+      <fields>
+        <field name="LCSC">C189750</field>
+        <field name="uuid">std:b0744a81ab3b40a89a286e2b8b0ab87e</field>
+      </fields>
+      <libsource lib="0My_Library" part="PCB-6P6C-90" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62122325</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>SM03B-SRSS-TB(LF)(SN)(P)</value>
+      <footprint>Connector:CONN-SMD_SM03B-SRSS-TB-LF-SN-P</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_171783.html</datasheet>
+      <fields>
+        <field name="LCSC">C160403</field>
+        <field name="uuid">std:1709169c777d454d9fe18ecc64314d33</field>
+      </fields>
+      <libsource lib="0My_Library" part="SM03B-SRSS-TB(LF)(SN)(P)" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6214DB5E</tstamp>
+    </comp>
+    <comp ref="CN1">
+      <value>SM10B-SRSS-TB_(LF)(SN)</value>
+      <footprint>Connector:CONN-SMD_10P-P1.00_SM10B-SRSS-TB-LF-SN</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_171789.html</datasheet>
+      <fields>
+        <field name="LCSC">C160409</field>
+        <field name="uuid">std:5e45a64e8ce7478d8accd2bac4409ba5</field>
+      </fields>
+      <libsource lib="0My_Library" part="SM10B-SRSS-TB_(LF)(SN)" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>621776E9</tstamp>
+    </comp>
+    <comp ref="CN2">
+      <value>SM10B-SRSS-TB_(LF)(SN)</value>
+      <footprint>Connector:CONN-SMD_10P-P1.00_SM10B-SRSS-TB-LF-SN</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_171789.html</datasheet>
+      <fields>
+        <field name="LCSC">C160409</field>
+        <field name="uuid">std:5e45a64e8ce7478d8accd2bac4409ba5</field>
+      </fields>
+      <libsource lib="0My_Library" part="SM10B-SRSS-TB_(LF)(SN)" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6218EDF8</tstamp>
+    </comp>
+    <comp ref="RJ2">
+      <value>PCB-6P6C-90</value>
+      <footprint>Connector:RJ11-TH_PCB-6P6C-90</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_203237.html</datasheet>
+      <fields>
+        <field name="LCSC">C189750</field>
+        <field name="uuid">std:b0744a81ab3b40a89a286e2b8b0ab87e</field>
+      </fields>
+      <libsource lib="0My_Library" part="PCB-6P6C-90" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>621CA48F</tstamp>
+    </comp>
+    <comp ref="RJ1">
+      <value>PCB-6P6C-90</value>
+      <footprint>Connector:RJ11-TH_PCB-6P6C-90</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_203237.html</datasheet>
+      <fields>
+        <field name="LCSC">C189750</field>
+        <field name="uuid">std:b0744a81ab3b40a89a286e2b8b0ab87e</field>
+      </fields>
+      <libsource lib="0My_Library" part="PCB-6P6C-90" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>621CA487</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x08_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x08_Female" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62256BA8</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x08_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x08_Female" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>622584E3</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x10_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x10_Female" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6225F267</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x06_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>622621F8</tstamp>
+    </comp>
+    <comp ref="H13">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.5mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>622BD5C6</tstamp>
+    </comp>
+    <comp ref="H14">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.5mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>622BD5CC</tstamp>
+    </comp>
+    <comp ref="H15">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.5mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>622BD5D2</tstamp>
+    </comp>
+    <comp ref="H16">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.5mm_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>622BD5D8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0My_Library" part="NUD3160LT">
+      <docs>http://www.szlcsc.com/product/details_747998.html</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NUD3160LT</field>
+        <field name="Footprint">kicad_lceda:SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR</field>
+        <field name="LCSC">C710040</field>
+        <field name="uuid">std:7e585bf7d09b4e0b9519328d48b2c542</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="input"/>
+        <pin num="3" name="D" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="0My_Library" part="PCB-6P6C-90">
+      <docs>http://www.szlcsc.com/product/details_203237.html</docs>
+      <fields>
+        <field name="Reference">RJ</field>
+        <field name="Value">PCB-6P6C-90</field>
+        <field name="Footprint">kicad_lceda:RJ11-TH_PCB-6P6C-90</field>
+        <field name="LCSC">C189750</field>
+        <field name="uuid">std:b0744a81ab3b40a89a286e2b8b0ab87e</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="0My_Library" part="SM03B-SRSS-TB(LF)(SN)(P)">
+      <docs>http://www.szlcsc.com/product/details_171783.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SM03B-SRSS-TB(LF)(SN)(P)</field>
+        <field name="Footprint">kicad_lceda:CONN-SMD_SM03B-SRSS-TB-LF-SN-P</field>
+        <field name="LCSC">C160403</field>
+        <field name="uuid">std:1709169c777d454d9fe18ecc64314d33</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="0My_Library" part="SM10B-SRSS-TB_(LF)(SN)">
+      <docs>http://www.szlcsc.com/product/details_171789.html</docs>
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">SM10B-SRSS-TB_(LF)(SN)</field>
+        <field name="Footprint">kicad_lceda:CONN-SMD_10P-P1.00_SM10B-SRSS-TB-LF-SN</field>
+        <field name="LCSC">C160409</field>
+        <field name="uuid">std:5e45a64e8ce7478d8accd2bac4409ba5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+        <pin num="7" name="7" type="input"/>
+        <pin num="8" name="8" type="input"/>
+        <pin num="9" name="9" type="input"/>
+        <pin num="10" name="10" type="input"/>
+        <pin num="11" name="11" type="input"/>
+        <pin num="12" name="12" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Female">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x10_Female">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x10">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0My_Library">
+      <uri>C:/Users/Cir/Documents/Kicad/MainLibrary/0My_Library.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>E:\Program Files\KiCAD\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>E:\Program Files\KiCAD\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>E:\Program Files\KiCAD\share\kicad\library/Mechanical.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="Q2" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="5"/>
+      <node ref="RJ5" pin="6"/>
+      <node ref="P3" pin="4"/>
+      <node ref="J7" pin="4"/>
+      <node ref="RJ6" pin="6"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="J5" pin="7"/>
+      <node ref="J5" pin="6"/>
+      <node ref="RJ4" pin="6"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="P1" pin="7"/>
+      <node ref="P1" pin="6"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="5"/>
+      <node ref="CN2" pin="11"/>
+      <node ref="CN1" pin="12"/>
+      <node ref="CN2" pin="12"/>
+      <node ref="CN1" pin="11"/>
+      <node ref="RJ3" pin="6"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="2" name="/4">
+      <node ref="U1" pin="2"/>
+      <node ref="J8" pin="4"/>
+      <node ref="P4" pin="4"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="RJ3" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="RJ4" pin="1"/>
+      <node ref="J5" pin="5"/>
+      <node ref="P1" pin="5"/>
+      <node ref="U3" pin="1"/>
+      <node ref="CN2" pin="7"/>
+      <node ref="CN2" pin="9"/>
+      <node ref="CN2" pin="5"/>
+      <node ref="RJ5" pin="1"/>
+      <node ref="CN1" pin="9"/>
+      <node ref="RJ6" pin="1"/>
+      <node ref="CN1" pin="5"/>
+      <node ref="CN1" pin="7"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="4" name="/B+1">
+      <node ref="RJ1" pin="2"/>
+      <node ref="CN1" pin="3"/>
+    </net>
+    <net code="5" name="/11(**/MOSI)">
+      <node ref="J7" pin="7"/>
+      <node ref="RJ4" pin="3"/>
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="6" name="/10(**/SS)">
+      <node ref="RJ3" pin="3"/>
+      <node ref="J7" pin="8"/>
+      <node ref="P3" pin="8"/>
+    </net>
+    <net code="7" name="/9(**)">
+      <node ref="P3" pin="9"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="J7" pin="9"/>
+    </net>
+    <net code="8" name="/A-2">
+      <node ref="CN2" pin="2"/>
+      <node ref="RJ2" pin="6"/>
+    </net>
+    <net code="9" name="Net-(CN1-Pad8)">
+      <node ref="CN1" pin="8"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="CN2" pin="8"/>
+    </net>
+    <net code="10" name="/B-2">
+      <node ref="RJ2" pin="5"/>
+      <node ref="CN2" pin="4"/>
+    </net>
+    <net code="11" name="/B+2">
+      <node ref="CN2" pin="3"/>
+      <node ref="RJ2" pin="2"/>
+    </net>
+    <net code="12" name="/5(**)">
+      <node ref="U3" pin="2"/>
+      <node ref="J8" pin="3"/>
+      <node ref="P4" pin="3"/>
+    </net>
+    <net code="13" name="Net-(CN1-Pad10)">
+      <node ref="Q3" pin="3"/>
+      <node ref="CN1" pin="10"/>
+      <node ref="CN2" pin="10"/>
+    </net>
+    <net code="14" name="/A+2">
+      <node ref="CN2" pin="1"/>
+      <node ref="RJ2" pin="1"/>
+    </net>
+    <net code="15" name="/B-1">
+      <node ref="CN1" pin="4"/>
+      <node ref="RJ1" pin="5"/>
+    </net>
+    <net code="16" name="Net-(RJ6-Pad4)">
+      <node ref="RJ6" pin="4"/>
+    </net>
+    <net code="17" name="/13(SCK)">
+      <node ref="J7" pin="5"/>
+      <node ref="P3" pin="5"/>
+      <node ref="RJ6" pin="3"/>
+    </net>
+    <net code="18" name="Net-(RJ6-Pad2)">
+      <node ref="RJ6" pin="2"/>
+    </net>
+    <net code="19" name="Net-(RJ5-Pad5)">
+      <node ref="RJ5" pin="5"/>
+    </net>
+    <net code="20" name="Net-(RJ5-Pad4)">
+      <node ref="RJ5" pin="4"/>
+    </net>
+    <net code="21" name="/12(MISO)">
+      <node ref="RJ5" pin="3"/>
+      <node ref="J7" pin="6"/>
+      <node ref="P3" pin="6"/>
+    </net>
+    <net code="22" name="Net-(RJ5-Pad2)">
+      <node ref="RJ5" pin="2"/>
+    </net>
+    <net code="23" name="Net-(RJ6-Pad5)">
+      <node ref="RJ6" pin="5"/>
+    </net>
+    <net code="24" name="Net-(RJ4-Pad5)">
+      <node ref="RJ4" pin="5"/>
+    </net>
+    <net code="25" name="Net-(RJ4-Pad4)">
+      <node ref="RJ4" pin="4"/>
+    </net>
+    <net code="26" name="Net-(RJ3-Pad5)">
+      <node ref="RJ3" pin="5"/>
+    </net>
+    <net code="27" name="Net-(RJ3-Pad4)">
+      <node ref="RJ3" pin="4"/>
+    </net>
+    <net code="28" name="/3(**)">
+      <node ref="Q1" pin="1"/>
+      <node ref="J8" pin="5"/>
+      <node ref="P4" pin="5"/>
+    </net>
+    <net code="29" name="/1(Tx)">
+      <node ref="J8" pin="7"/>
+      <node ref="P4" pin="7"/>
+    </net>
+    <net code="30" name="/0(Rx)">
+      <node ref="J8" pin="8"/>
+      <node ref="P4" pin="8"/>
+    </net>
+    <net code="31" name="/Vin">
+      <node ref="P1" pin="8"/>
+      <node ref="J5" pin="8"/>
+    </net>
+    <net code="32" name="+3V3">
+      <node ref="J5" pin="4"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="33" name="/Reset">
+      <node ref="J5" pin="3"/>
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="34" name="/A3">
+      <node ref="P2" pin="4"/>
+      <node ref="J6" pin="4"/>
+    </net>
+    <net code="35" name="/A2">
+      <node ref="P2" pin="3"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="36" name="/A1">
+      <node ref="J6" pin="2"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="37" name="/A0">
+      <node ref="J6" pin="1"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="38" name="/AREF">
+      <node ref="P3" pin="3"/>
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="39" name="/7">
+      <node ref="P4" pin="1"/>
+      <node ref="J8" pin="1"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="40" name="/6(**)">
+      <node ref="P4" pin="2"/>
+      <node ref="J8" pin="2"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="41" name="Net-(RJ1-Pad3)">
+      <node ref="RJ1" pin="3"/>
+    </net>
+    <net code="42" name="/A-1">
+      <node ref="CN1" pin="2"/>
+      <node ref="RJ1" pin="6"/>
+    </net>
+    <net code="43" name="Net-(RJ1-Pad4)">
+      <node ref="RJ1" pin="4"/>
+    </net>
+    <net code="44" name="/A+1">
+      <node ref="CN1" pin="1"/>
+      <node ref="RJ1" pin="1"/>
+    </net>
+    <net code="45" name="Net-(RJ2-Pad4)">
+      <node ref="RJ2" pin="4"/>
+    </net>
+    <net code="46" name="Net-(RJ2-Pad3)">
+      <node ref="RJ2" pin="3"/>
+    </net>
+    <net code="47" name="/IOREF">
+      <node ref="J5" pin="2"/>
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="48" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="49" name="Net-(RJ4-Pad2)">
+      <node ref="RJ4" pin="2"/>
+    </net>
+    <net code="50" name="Net-(RJ3-Pad2)">
+      <node ref="RJ3" pin="2"/>
+    </net>
+    <net code="51" name="/A5(SCL)">
+      <node ref="J7" pin="1"/>
+      <node ref="P2" pin="6"/>
+      <node ref="J6" pin="6"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="52" name="/A4(SDA)">
+      <node ref="J7" pin="2"/>
+      <node ref="J6" pin="5"/>
+      <node ref="P3" pin="2"/>
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="53" name="Net-(P8-Pad1)">
+      <node ref="P8" pin="1"/>
+    </net>
+    <net code="54" name="Net-(P7-Pad1)">
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="55" name="Net-(P6-Pad1)">
+      <node ref="P6" pin="1"/>
+    </net>
+    <net code="56" name="Net-(P5-Pad1)">
+      <node ref="P5" pin="1"/>
+    </net>
+    <net code="57" name="/8">
+      <node ref="P3" pin="10"/>
+      <node ref="J7" pin="10"/>
+    </net>
+    <net code="58" name="/2">
+      <node ref="U2" pin="2"/>
+      <node ref="J8" pin="6"/>
+      <node ref="P4" pin="6"/>
+    </net>
+    <net code="59" name="Net-(CN1-Pad6)">
+      <node ref="Q1" pin="3"/>
+      <node ref="CN1" pin="6"/>
+      <node ref="CN2" pin="6"/>
+    </net>
+  </nets>
+</export>

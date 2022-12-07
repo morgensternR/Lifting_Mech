@@ -1,0 +1,505 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 62907054
+P 4000 2200
+AR Path="/6289C563/62907054" Ref="R?"  Part="1" 
+AR Path="/6289C563/6290464A/62907054" Ref="R8"  Part="1" 
+F 0 "R8" V 3793 2200 50  0000 C CNN
+F 1 "300K" V 3884 2200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3930 2200 50  0001 C CNN
+F 3 "~" H 4000 2200 50  0001 C CNN
+F 4 "C23024" V 4000 2200 50  0001 C CNN "LCSC"
+	1    4000 2200
+	1    0    0    -1  
+$EndComp
+Text HLabel 3800 3050 0    50   Input ~ 0
+1-1_IN
+Text HLabel 3750 4450 0    50   Input ~ 0
+1-2_IN
+Text HLabel 3700 5900 0    50   Input ~ 0
+1-3_IN
+Text HLabel 5600 3250 0    50   Input ~ 0
+1-4_IN
+Text HLabel 5500 4950 0    50   Input ~ 0
+1-5_IN
+Text HLabel 5450 6500 0    50   Input ~ 0
+1-6_IN
+Text HLabel 7200 3300 0    50   Input ~ 0
+2-1_IN
+Text HLabel 7300 5200 0    50   Input ~ 0
+2-2_IN
+Text HLabel 4700 2700 2    50   Input ~ 0
+1-1_OUT
+Text HLabel 4650 4100 2    50   Input ~ 0
+1-2_OUT
+Text HLabel 4600 5550 2    50   Input ~ 0
+1-3_OUT
+Text HLabel 6500 2900 2    50   Input ~ 0
+1-4_OUT
+Text HLabel 6400 4600 2    50   Input ~ 0
+1-5_OUT
+Text HLabel 6350 6150 2    50   Input ~ 0
+1-6_OUT
+Text HLabel 8100 2950 2    50   Input ~ 0
+2-1_OUT
+Text HLabel 8200 4850 2    50   Input ~ 0
+2-2_OUT
+Wire Wire Line
+	4000 3050 4100 3050
+Wire Wire Line
+	4400 3050 4600 3050
+Wire Wire Line
+	4600 2700 4600 3050
+Wire Wire Line
+	4600 2700 4700 2700
+Text HLabel 4600 3350 3    50   Input ~ 0
+GND
+Connection ~ 4000 3050
+Wire Wire Line
+	3800 3050 4000 3050
+Wire Wire Line
+	3950 4450 4050 4450
+Wire Wire Line
+	4350 4450 4550 4450
+Wire Wire Line
+	4550 4100 4550 4450
+Wire Wire Line
+	4550 4100 4650 4100
+Text HLabel 4550 4750 3    50   Input ~ 0
+GND
+Connection ~ 3950 4450
+Wire Wire Line
+	3750 4450 3950 4450
+Wire Wire Line
+	3900 5900 4000 5900
+Wire Wire Line
+	4300 5900 4500 5900
+Wire Wire Line
+	4500 5550 4500 5900
+Wire Wire Line
+	4500 5550 4600 5550
+Text HLabel 4500 6200 3    50   Input ~ 0
+GND
+Connection ~ 3900 5900
+Wire Wire Line
+	3700 5900 3900 5900
+Wire Wire Line
+	5800 3250 5900 3250
+Wire Wire Line
+	6200 3250 6400 3250
+Wire Wire Line
+	6400 2900 6400 3250
+Wire Wire Line
+	6400 2900 6500 2900
+Text HLabel 6400 3550 3    50   Input ~ 0
+GND
+Connection ~ 5800 3250
+Wire Wire Line
+	5600 3250 5800 3250
+Wire Wire Line
+	5700 4950 5800 4950
+Wire Wire Line
+	6100 4950 6300 4950
+Wire Wire Line
+	6300 4600 6300 4950
+Wire Wire Line
+	6300 4600 6400 4600
+Text HLabel 6300 5250 3    50   Input ~ 0
+GND
+Connection ~ 5700 4950
+Wire Wire Line
+	5500 4950 5700 4950
+Wire Wire Line
+	5650 6500 5750 6500
+Wire Wire Line
+	6050 6500 6250 6500
+Wire Wire Line
+	6250 6150 6250 6500
+Wire Wire Line
+	6250 6150 6350 6150
+Text HLabel 6250 6800 3    50   Input ~ 0
+GND
+Connection ~ 5650 6500
+Wire Wire Line
+	5450 6500 5650 6500
+Wire Wire Line
+	7400 3300 7500 3300
+Wire Wire Line
+	7800 3300 8000 3300
+Wire Wire Line
+	8000 2950 8000 3300
+Wire Wire Line
+	8000 2950 8100 2950
+Text HLabel 8000 3600 3    50   Input ~ 0
+GND
+Connection ~ 7400 3300
+Wire Wire Line
+	7200 3300 7400 3300
+Wire Wire Line
+	7500 5200 7600 5200
+Wire Wire Line
+	7900 5200 8100 5200
+Wire Wire Line
+	8100 4850 8100 5200
+Wire Wire Line
+	8100 4850 8200 4850
+Text HLabel 8100 5500 3    50   Input ~ 0
+GND
+Connection ~ 7500 5200
+Wire Wire Line
+	7300 5200 7500 5200
+Text HLabel 4000 2050 1    50   Input ~ 0
+3.3V
+Text HLabel 3950 3450 1    50   Input ~ 0
+3.3V
+Text HLabel 7400 2300 1    50   Input ~ 0
+3.3V
+Text HLabel 5800 2250 1    50   Input ~ 0
+3.3V
+Text HLabel 5700 3950 1    50   Input ~ 0
+3.3V
+Text HLabel 7500 4200 1    50   Input ~ 0
+3.3V
+Text HLabel 5650 5500 1    50   Input ~ 0
+3.3V
+Text HLabel 3900 4900 1    50   Input ~ 0
+3.3V
+Wire Wire Line
+	5650 5800 5650 6500
+Wire Wire Line
+	3900 5200 3900 5900
+Wire Wire Line
+	3950 3750 3950 4450
+Wire Wire Line
+	4000 2350 4000 3050
+Wire Wire Line
+	5800 2550 5800 3250
+Wire Wire Line
+	7400 2600 7400 3300
+Wire Wire Line
+	7500 4500 7500 5200
+Wire Wire Line
+	5700 4250 5700 4950
+$Comp
+L Device:R R?
+U 1 1 62926660
+P 4250 3050
+AR Path="/6289C563/62926660" Ref="R?"  Part="1" 
+AR Path="/6289C563/6290464A/62926660" Ref="R5"  Part="1" 
+F 0 "R5" V 4043 3050 50  0000 C CNN
+F 1 "200K" V 4134 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4180 3050 50  0001 C CNN
+F 3 "~" H 4250 3050 50  0001 C CNN
+F 4 "C25811" V 4250 3050 50  0001 C CNN "LCSC"
+	1    4250 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 6297AD1B
+P 6400 3400
+F 0 "C6" H 6515 3446 50  0000 L CNN
+F 1 "100nF" H 6515 3355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6438 3250 50  0001 C CNN
+F 3 "~" H 6400 3400 50  0001 C CNN
+F 4 "C14663" H 6400 3400 50  0001 C CNN "LCSC"
+	1    6400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 6297B8EA
+P 4600 3200
+F 0 "C5" H 4715 3246 50  0000 L CNN
+F 1 "100nF" H 4715 3155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4638 3050 50  0001 C CNN
+F 3 "~" H 4600 3200 50  0001 C CNN
+F 4 "C14663" H 4600 3200 50  0001 C CNN "LCSC"
+	1    4600 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 6400 3250
+$Comp
+L Device:C C7
+U 1 1 6297D70A
+P 8000 3450
+F 0 "C7" H 8115 3496 50  0000 L CNN
+F 1 "100nF" H 8115 3405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8038 3300 50  0001 C CNN
+F 3 "~" H 8000 3450 50  0001 C CNN
+F 4 "C14663" H 8000 3450 50  0001 C CNN "LCSC"
+	1    8000 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 6297EBDF
+P 6300 5100
+F 0 "C9" H 6415 5146 50  0000 L CNN
+F 1 "100nF" H 6415 5055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6338 4950 50  0001 C CNN
+F 3 "~" H 6300 5100 50  0001 C CNN
+F 4 "C14663" H 6300 5100 50  0001 C CNN "LCSC"
+	1    6300 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 6297F9B2
+P 4550 4600
+F 0 "C8" H 4665 4646 50  0000 L CNN
+F 1 "100nF" H 4665 4555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4588 4450 50  0001 C CNN
+F 3 "~" H 4550 4600 50  0001 C CNN
+F 4 "C14663" H 4550 4600 50  0001 C CNN "LCSC"
+	1    4550 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 62980935
+P 8100 5350
+F 0 "C10" H 8215 5396 50  0000 L CNN
+F 1 "100nF" H 8215 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8138 5200 50  0001 C CNN
+F 3 "~" H 8100 5350 50  0001 C CNN
+F 4 "C14663" H 8100 5350 50  0001 C CNN "LCSC"
+	1    8100 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 629817EC
+P 4500 6050
+F 0 "C11" H 4615 6096 50  0000 L CNN
+F 1 "100nF" H 4615 6005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4538 5900 50  0001 C CNN
+F 3 "~" H 4500 6050 50  0001 C CNN
+F 4 "C14663" H 4500 6050 50  0001 C CNN "LCSC"
+	1    4500 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 62982721
+P 6250 6650
+F 0 "C12" H 6365 6696 50  0000 L CNN
+F 1 "100nF" H 6365 6605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6288 6500 50  0001 C CNN
+F 3 "~" H 6250 6650 50  0001 C CNN
+F 4 "C14663" H 6250 6650 50  0001 C CNN "LCSC"
+	1    6250 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6298E1AF
+P 5800 2400
+AR Path="/6289C563/6298E1AF" Ref="R?"  Part="1" 
+AR Path="/6289C563/6290464A/6298E1AF" Ref="R3"  Part="1" 
+F 0 "R3" V 5593 2400 50  0000 C CNN
+F 1 "300K" V 5684 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5730 2400 50  0001 C CNN
+F 3 "~" H 5800 2400 50  0001 C CNN
+F 4 "C23024" V 5800 2400 50  0001 C CNN "LCSC"
+	1    5800 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6298EF64
+P 7400 2450
+AR Path="/6289C563/6298EF64" Ref="R?"  Part="1" 
+AR Path="/6289C563/6290464A/6298EF64" Ref="R4"  Part="1" 
+F 0 "R4" V 7193 2450 50  0000 C CNN
+F 1 "300K" V 7284 2450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7330 2450 50  0001 C CNN
+F 3 "~" H 7400 2450 50  0001 C CNN
+F 4 "C23024" V 7400 2450 50  0001 C CNN "LCSC"
+	1    7400 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62990433
+P 5700 4100
+AR Path="/6289C563/62990433" Ref="R?"  Part="1" 
+AR Path="/6289C563/6290464A/62990433" Ref="R10"  Part="1" 
+F 0 "R10" V 5493 4100 50  0000 C CNN
+F 1 "300K" V 5584 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5630 4100 50  0001 C CNN
+F 3 "~" H 5700 4100 50  0001 C CNN
+F 4 "C23024" V 5700 4100 50  0001 C CNN "LCSC"
+	1    5700 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6299116E
+P 3950 3600
+AR Path="/6289C563/6299116E" Ref="R?"  Part="1" 
+AR Path="/6289C563/6290464A/6299116E" Ref="R9"  Part="1" 
+F 0 "R9" V 3743 3600 50  0000 C CNN
+F 1 "300K" V 3834 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3880 3600 50  0001 C CNN
+F 3 "~" H 3950 3600 50  0001 C CNN
+F 4 "C23024" V 3950 3600 50  0001 C CNN "LCSC"
+	1    3950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62991F31
+P 7500 4350
+AR Path="/6289C563/62991F31" Ref="R?"  Part="1" 
+AR Path="/6289C563/6290464A/62991F31" Ref="R11"  Part="1" 
+F 0 "R11" V 7293 4350 50  0000 C CNN
+F 1 "300K" V 7384 4350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7430 4350 50  0001 C CNN
+F 3 "~" H 7500 4350 50  0001 C CNN
+F 4 "C23024" V 7500 4350 50  0001 C CNN "LCSC"
+	1    7500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62992DE0
+P 5650 5650
+AR Path="/6289C563/62992DE0" Ref="R?"  Part="1" 
+AR Path="/6289C563/6290464A/62992DE0" Ref="R16"  Part="1" 
+F 0 "R16" V 5443 5650 50  0000 C CNN
+F 1 "300K" V 5534 5650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5580 5650 50  0001 C CNN
+F 3 "~" H 5650 5650 50  0001 C CNN
+F 4 "C23024" V 5650 5650 50  0001 C CNN "LCSC"
+	1    5650 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62993B4D
+P 3900 5050
+AR Path="/6289C563/62993B4D" Ref="R?"  Part="1" 
+AR Path="/6289C563/6290464A/62993B4D" Ref="R14"  Part="1" 
+F 0 "R14" V 3693 5050 50  0000 C CNN
+F 1 "300K" V 3784 5050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 3830 5050 50  0001 C CNN
+F 3 "~" H 3900 5050 50  0001 C CNN
+F 4 "C23024" V 3900 5050 50  0001 C CNN "LCSC"
+	1    3900 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62994C2B
+P 6050 3250
+AR Path="/6289C563/62994C2B" Ref="R?"  Part="1" 
+AR Path="/6289C563/6290464A/62994C2B" Ref="R6"  Part="1" 
+F 0 "R6" V 5843 3250 50  0000 C CNN
+F 1 "200K" V 5934 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5980 3250 50  0001 C CNN
+F 3 "~" H 6050 3250 50  0001 C CNN
+F 4 "C25811" V 6050 3250 50  0001 C CNN "LCSC"
+	1    6050 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 629958DC
+P 7650 3300
+AR Path="/6289C563/629958DC" Ref="R?"  Part="1" 
+AR Path="/6289C563/6290464A/629958DC" Ref="R7"  Part="1" 
+F 0 "R7" V 7443 3300 50  0000 C CNN
+F 1 "200K" V 7534 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7580 3300 50  0001 C CNN
+F 3 "~" H 7650 3300 50  0001 C CNN
+F 4 "C25811" V 7650 3300 50  0001 C CNN "LCSC"
+	1    7650 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62996435
+P 7750 5200
+AR Path="/6289C563/62996435" Ref="R?"  Part="1" 
+AR Path="/6289C563/6290464A/62996435" Ref="R15"  Part="1" 
+F 0 "R15" V 7543 5200 50  0000 C CNN
+F 1 "200K" V 7634 5200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7680 5200 50  0001 C CNN
+F 3 "~" H 7750 5200 50  0001 C CNN
+F 4 "C25811" V 7750 5200 50  0001 C CNN "LCSC"
+	1    7750 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62997488
+P 5950 4950
+AR Path="/6289C563/62997488" Ref="R?"  Part="1" 
+AR Path="/6289C563/6290464A/62997488" Ref="R13"  Part="1" 
+F 0 "R13" V 5743 4950 50  0000 C CNN
+F 1 "200K" V 5834 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5880 4950 50  0001 C CNN
+F 3 "~" H 5950 4950 50  0001 C CNN
+F 4 "C25811" V 5950 4950 50  0001 C CNN "LCSC"
+	1    5950 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 629982B3
+P 4200 4450
+AR Path="/6289C563/629982B3" Ref="R?"  Part="1" 
+AR Path="/6289C563/6290464A/629982B3" Ref="R12"  Part="1" 
+F 0 "R12" V 3993 4450 50  0000 C CNN
+F 1 "200K" V 4084 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4130 4450 50  0001 C CNN
+F 3 "~" H 4200 4450 50  0001 C CNN
+F 4 "C25811" V 4200 4450 50  0001 C CNN "LCSC"
+	1    4200 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62998FA4
+P 4150 5900
+AR Path="/6289C563/62998FA4" Ref="R?"  Part="1" 
+AR Path="/6289C563/6290464A/62998FA4" Ref="R17"  Part="1" 
+F 0 "R17" V 3943 5900 50  0000 C CNN
+F 1 "200K" V 4034 5900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4080 5900 50  0001 C CNN
+F 3 "~" H 4150 5900 50  0001 C CNN
+F 4 "C25811" V 4150 5900 50  0001 C CNN "LCSC"
+	1    4150 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62999C6B
+P 5900 6500
+AR Path="/6289C563/62999C6B" Ref="R?"  Part="1" 
+AR Path="/6289C563/6290464A/62999C6B" Ref="R18"  Part="1" 
+F 0 "R18" V 5693 6500 50  0000 C CNN
+F 1 "200K" V 5784 6500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 5830 6500 50  0001 C CNN
+F 3 "~" H 5900 6500 50  0001 C CNN
+F 4 "C25811" V 5900 6500 50  0001 C CNN "LCSC"
+	1    5900 6500
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

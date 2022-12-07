@@ -1,0 +1,172 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 0_Lift_02_Symbols:2N2222A Q?
+U 1 1 6379D19E
+P 5100 3000
+AR Path="/6379D19E" Ref="Q?"  Part="1" 
+AR Path="/63798DAC/6379D19E" Ref="Q1"  Part="1" 
+AR Path="/637D4D30/6379D19E" Ref="Q?"  Part="1" 
+F 0 "Q1" H 5244 3046 50  0000 L CNN
+F 1 "2N2222A" H 5244 2955 50  0000 L CNN
+F 2 "0_Lift_02:TO-92-3_L4.8-W3.7-P2.54-R" H 5400 1870 50  0001 C CNN
+F 3 "http://www.szlcsc.com/product/details_333502.html" H 5400 1670 50  0001 C CNN
+F 4 "C358533" H 5550 2720 50  0001 C CNN "LCSC"
+F 5 "std:4160acdcbf3c44b7857840e3de817f0d" H 5200 1870 50  0001 C CNN "uuid"
+	1    5100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6379D1B5
+P 4850 3000
+AR Path="/6379D1B5" Ref="R?"  Part="1" 
+AR Path="/63798DAC/6379D1B5" Ref="R19"  Part="1" 
+AR Path="/637D4D30/6379D1B5" Ref="R?"  Part="1" 
+F 0 "R19" V 5057 3000 50  0000 C CNN
+F 1 "2.6K 1%" V 4966 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4780 3000 50  0001 C CNN
+F 3 "~" H 4850 3000 50  0001 C CNN
+F 4 "C332823" H 4850 3000 50  0001 C CNN "LCSC"
+	1    4850 3000
+	0    -1   -1   0   
+$EndComp
+Text HLabel 5500 2800 2    50   Output ~ 0
+DM542TPulse
+Text HLabel 5500 3550 2    50   Output ~ 0
+DM542TDir
+Text HLabel 5500 4250 2    50   Output ~ 0
+DM542TEnable
+Text HLabel 4400 3000 0    50   Input ~ 0
+PulsePin
+Text HLabel 4400 3750 0    50   Input ~ 0
+DirPin
+Text HLabel 4400 4450 0    50   Input ~ 0
+EnablePin
+Wire Wire Line
+	4400 3000 4700 3000
+Wire Wire Line
+	4700 3750 4400 3750
+Wire Wire Line
+	4700 4450 4400 4450
+Wire Wire Line
+	5500 2800 5200 2800
+Wire Wire Line
+	5200 3550 5500 3550
+Wire Wire Line
+	5500 4250 5200 4250
+$Comp
+L power:GND #PWR019
+U 1 1 637B3F9B
+P 5200 3200
+AR Path="/63798DAC/637B3F9B" Ref="#PWR019"  Part="1" 
+AR Path="/637D4D30/637B3F9B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR019" H 5200 2950 50  0001 C CNN
+F 1 "GND" H 5205 3027 50  0000 C CNN
+F 2 "" H 5200 3200 50  0001 C CNN
+F 3 "" H 5200 3200 50  0001 C CNN
+	1    5200 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 637B420D
+P 5200 3950
+AR Path="/63798DAC/637B420D" Ref="#PWR020"  Part="1" 
+AR Path="/637D4D30/637B420D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR020" H 5200 3700 50  0001 C CNN
+F 1 "GND" H 5205 3777 50  0000 C CNN
+F 2 "" H 5200 3950 50  0001 C CNN
+F 3 "" H 5200 3950 50  0001 C CNN
+	1    5200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 637B4413
+P 5200 4650
+AR Path="/63798DAC/637B4413" Ref="#PWR021"  Part="1" 
+AR Path="/637D4D30/637B4413" Ref="#PWR?"  Part="1" 
+F 0 "#PWR021" H 5200 4400 50  0001 C CNN
+F 1 "GND" H 5205 4477 50  0000 C CNN
+F 2 "" H 5200 4650 50  0001 C CNN
+F 3 "" H 5200 4650 50  0001 C CNN
+	1    5200 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 637F7091
+P 4850 3750
+AR Path="/637F7091" Ref="R?"  Part="1" 
+AR Path="/63798DAC/637F7091" Ref="R20"  Part="1" 
+AR Path="/637D4D30/637F7091" Ref="R?"  Part="1" 
+F 0 "R20" V 5057 3750 50  0000 C CNN
+F 1 "2.6K 1%" V 4966 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4780 3750 50  0001 C CNN
+F 3 "~" H 4850 3750 50  0001 C CNN
+F 4 "C332823" H 4850 3750 50  0001 C CNN "LCSC"
+	1    4850 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 637F7358
+P 4850 4450
+AR Path="/637F7358" Ref="R?"  Part="1" 
+AR Path="/63798DAC/637F7358" Ref="R21"  Part="1" 
+AR Path="/637D4D30/637F7358" Ref="R?"  Part="1" 
+F 0 "R21" V 5057 4450 50  0000 C CNN
+F 1 "2.6K 1%" V 4966 4450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4780 4450 50  0001 C CNN
+F 3 "~" H 4850 4450 50  0001 C CNN
+F 4 "C332823" H 4850 4450 50  0001 C CNN "LCSC"
+	1    4850 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 0_Lift_02_Symbols:2N2222A Q?
+U 1 1 6375CF44
+P 5100 3750
+AR Path="/6375CF44" Ref="Q?"  Part="1" 
+AR Path="/63798DAC/6375CF44" Ref="Q?"  Part="1" 
+AR Path="/637D4D30/6375CF44" Ref="Q?"  Part="1" 
+F 0 "Q?" H 5244 3796 50  0000 L CNN
+F 1 "2N2222A" H 5244 3705 50  0000 L CNN
+F 2 "0_Lift_02:TO-92-3_L4.8-W3.7-P2.54-R" H 5400 2620 50  0001 C CNN
+F 3 "http://www.szlcsc.com/product/details_333502.html" H 5400 2420 50  0001 C CNN
+F 4 "C358533" H 5550 3470 50  0001 C CNN "LCSC"
+F 5 "std:4160acdcbf3c44b7857840e3de817f0d" H 5200 2620 50  0001 C CNN "uuid"
+	1    5100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 0_Lift_02_Symbols:2N2222A Q?
+U 1 1 6375D37C
+P 5100 4450
+AR Path="/6375D37C" Ref="Q?"  Part="1" 
+AR Path="/63798DAC/6375D37C" Ref="Q?"  Part="1" 
+AR Path="/637D4D30/6375D37C" Ref="Q?"  Part="1" 
+F 0 "Q?" H 5244 4496 50  0000 L CNN
+F 1 "2N2222A" H 5244 4405 50  0000 L CNN
+F 2 "0_Lift_02:TO-92-3_L4.8-W3.7-P2.54-R" H 5400 3320 50  0001 C CNN
+F 3 "http://www.szlcsc.com/product/details_333502.html" H 5400 3120 50  0001 C CNN
+F 4 "C358533" H 5550 4170 50  0001 C CNN "LCSC"
+F 5 "std:4160acdcbf3c44b7857840e3de817f0d" H 5200 3320 50  0001 C CNN "uuid"
+	1    5100 4450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

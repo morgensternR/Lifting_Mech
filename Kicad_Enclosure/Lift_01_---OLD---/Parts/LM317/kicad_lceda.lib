@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# LM317AG-TN3-R
+#
+DEF LM317AG-TN3-R U 0 40 Y Y 1 F N
+F0 "U" 0 305 50 H V C CNN
+F1 "LM317AG-TN3-R" 0 505 50 H V C CNN
+F2 "kicad_lceda:TO-252-2_L6.5-W6.1-P4.58-LS10.0-TL" 0 105 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_76635.html" 0 -95 50 H I C CNN
+F4 "C75510" 0 -295 50 H I C CNN "SuppliersPartNumber"
+F5 "std:b69111e62d7447e7a991e3e2fff4780d" 0 -295 50 H I C CNN "uuid"
+DRAW
+S -400 200 400 -200 1 1 6 N
+X ADJ 1 -600 100 200 R 50 50 1 1 I 
+X VIN 3 600 -100 200 L 50 50 1 1 I 
+X OUT 4 600 100 200 L 50 50 1 1 I 
+ENDDRAW
+ENDDEF
+
+#
+#End Library

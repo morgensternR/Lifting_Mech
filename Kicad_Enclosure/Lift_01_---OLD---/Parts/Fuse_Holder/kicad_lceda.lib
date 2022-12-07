@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 5x20_BLX-Atype_Fuse_holder_XC-7
+#
+DEF 5x20_BLX-Atype_Fuse_holder_XC-7 F 0 40 Y N 1 F N
+F0 "F" 0 200 50 H V C CNN
+F1 "5x20_BLX-Atype_Fuse_holder_XC-7" 0 400 50 H V C CNN
+F2 "kicad_lceda:FUSE-TH_L22.6-W9.0" 0 0 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_3520.html" 0 -200 50 H I C CNN
+F4 "C3131" 0 -400 50 H I C CNN "SuppliersPartNumber"
+F5 "std:7504c0affcfc453c8609e5778cebfcf8" 0 -400 50 H I C CNN "uuid"
+DRAW
+S -350 100 350 -100 1 1 6 N
+C -250 0 25 1 1 6 N
+C 250 0 25 1 1 6 N
+S -300 50 300 -50 1 1 6 N
+X 1 1 -450 0 200 R 50 50 1 1 I 
+X 2 2 450 0 200 L 50 50 1 1 I 
+P 2 1 1 6 -150 50 -150 -50 N
+P 2 1 1 6 150 50 150 -50 N
+P 2 1 1 6 150 50 -150 -50 N
+ENDDRAW
+ENDDEF
+
+#
+#End Library

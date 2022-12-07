@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 1N5819HW-7-F
+#
+DEF 1N5819HW-7-F D 0 40 N N 1 F N
+F0 "D" 0 180 50 H V C CNN
+F1 "1N5819HW-7-F" 0 380 50 H V C CNN
+F2 "kicad_lceda:SOD-123_L2.8-W1.8-LS3.7-FD" 0 -20 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_83701.html" 0 -220 50 H I C CNN
+F4 "C82544" 0 -420 50 H I C CNN "SuppliersPartNumber"
+F5 "std:47b55e59631553df73a52e76573a2d5c" 0 -420 50 H I C CNN "uuid"
+DRAW
+X A 1 -200 0 150 R 50 50 1 1 I 
+X K 2 200 0 150 L 50 50 1 1 I 
+P 6 1 1 6 80 -60 80 -70 60 -70 60 80 40 80 40 70 N
+P 4 1 1 6 -50 -60 50 0 -50 70 -50 -60 F
+ENDDRAW
+ENDDEF
+
+#
+#End Library

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg86645"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Wire_Drawing.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview86647"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.74118967"
+     inkscape:cx="453.99985"
+     inkscape:cy="483.68186"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs86642" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect86715"
+       width="172.41705"
+       height="7.4963942"
+       x="26.058895"
+       y="184.55409" />
+    <rect
+       style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect86717"
+       width="169.20432"
+       height="4.9975958"
+       x="28.557693"
+       y="89.956734" />
+    <rect
+       style="fill:#0000ff;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect86719"
+       width="171.34615"
+       height="6.4254808"
+       x="28.200722"
+       y="21.061296" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="226.31972"
+       y="191.33655"
+       id="text88131"><tspan
+         sodipodi:role="line"
+         id="tspan88129"
+         style="stroke-width:0.264583"
+         x="226.31972"
+         y="191.33655">4K</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="215.96754"
+       y="87.10096"
+       id="text90115"><tspan
+         sodipodi:role="line"
+         id="tspan90113"
+         style="stroke-width:0.264583"
+         x="215.96754"
+         y="87.10096">40k</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="219.53726"
+       y="23.203125"
+       id="text92033"><tspan
+         sodipodi:role="line"
+         id="tspan92031"
+         style="stroke-width:0.264583"
+         x="219.53726"
+         y="23.203125">Room Temp</tspan></text>
+    <rect
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.258415"
+       id="rect103578"
+       width="7.1394229"
+       height="155.27879"
+       x="36.768028"
+       y="26.776495" />
+    <rect
+       style="fill:#000000;fill-rule:evenodd;stroke-width:0.257225"
+       id="rect103578-5"
+       width="7.1394229"
+       height="153.85089"
+       x="54.973557"
+       y="26.953156" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-34.983173"
+       y="62.826923"
+       id="text104366"><tspan
+         sodipodi:role="line"
+         id="tspan104364"
+         style="stroke-width:0.264583"
+         x="-34.983173"
+         y="62.826923">25 wire cable</tspan></text>
+    <rect
+       style="fill:#ff0000;fill-rule:evenodd;stroke-width:0.323902"
+       id="rect109402"
+       width="12.493991"
+       height="34.269234"
+       x="31.41346"
+       y="191.33653" />
+    <rect
+       style="fill:#ff0000;fill-rule:evenodd;stroke-width:0.264583"
+       id="rect109404"
+       width="8.2103376"
+       height="33.021671"
+       x="54.973557"
+       y="192.22713" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-0.3569715"
+       y="240.24156"
+       id="text114782"><tspan
+         sodipodi:role="line"
+         id="tspan114780"
+         style="stroke-width:0.264583"
+         x="-0.3569715"
+         y="240.24156">15 &amp; 21 Wire</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-113.15986"
+       y="106.02044"
+       id="text47709"><tspan
+         sodipodi:role="line"
+         id="tspan47707"
+         style="stroke-width:0.264583"
+         x="-113.15986"
+         y="106.02044">Clamps/Feedthrough cover</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-123.51202"
+       y="20.347357"
+       id="text49597"><tspan
+         sodipodi:role="line"
+         id="tspan49595"
+         style="stroke-width:0.264583"
+         x="-123.51202"
+         y="20.347357">25 Wire KF50 PCB Gateway</tspan></text>
+    <ellipse
+       id="path72367"
+       cx="50.868385"
+       cy="18.91947"
+       rx="22.667665"
+       ry="2.1418262"
+       style="fill:#00ff00;stroke-width:0.210313" />
+    <rect
+       style="fill:#666666;stroke-width:0.264583"
+       id="rect74815"
+       width="10.709135"
+       height="6.0685096"
+       x="61.399036"
+       y="77.81971" />
+    <rect
+       style="fill:#666666;stroke-width:0.264583"
+       id="rect74817"
+       width="6.7824559"
+       height="12.850964"
+       x="72.10817"
+       y="77.81971" />
+    <rect
+       style="fill:#666666;stroke-width:0.264583"
+       id="rect74823"
+       width="9.4656277"
+       height="4.8590217"
+       x="27.450319"
+       y="74.147408" />
+    <rect
+       style="fill:#666666;stroke-width:0.264583"
+       id="rect74825"
+       width="5.1745424"
+       height="11.043235"
+       x="27.450319"
+       y="79.006432" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-114.58774"
+       y="189.19472"
+       id="text76449"><tspan
+         sodipodi:role="line"
+         id="tspan76447"
+         style="stroke-width:0.264583"
+         x="-114.58774"
+         y="189.19472">25 pin to 21 / 15 pin PCB</tspan></text>
+    <ellipse
+       style="fill:#00ff00;stroke-width:0.264583"
+       id="path80027"
+       cx="50.511417"
+       cy="182.59074"
+       rx="24.452524"
+       ry="1.9633437" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="66.396637"
+       y="174.20192"
+       id="text85120"><tspan
+         sodipodi:role="line"
+         id="tspan85118"
+         style="stroke-width:0.264583"
+         x="66.396637"
+         y="174.20192">PCB clamp</tspan></text>
+  </g>
+</svg>

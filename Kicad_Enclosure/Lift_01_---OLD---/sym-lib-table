@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Lifting_Mech_PCB_Mount-rescue)(type Legacy)(uri ${KIPRJMOD}/Lifting_Mech_PCB_Mount-rescue.lib)(options "")(descr ""))
+  (lib (name tmc2160-0my_library)(type Legacy)(uri "C:/Users/rdm8/Documents/GitHub/LiftingCircuit-Enclosure/Kicad_Enclosure/Lift_02/Lift_02/Symbols and Footprints/tmc2160-0my_library.lib")(options "")(descr ""))
+)

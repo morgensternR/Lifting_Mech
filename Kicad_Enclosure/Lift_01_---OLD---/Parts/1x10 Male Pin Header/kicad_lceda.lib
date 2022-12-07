@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 210S-1*10P_L=11.6MMGold-plated_black
+#
+DEF 210S-1*10P_L=11.6MMGold-plated_black H 0 40 Y Y 1 F N
+F0 "H" 0 653 50 H V C CNN
+F1 "210S-1*10P_L=11.6MMGold-plated_black" 0 853 50 H V C CNN
+F2 "kicad_lceda:HDR-TH_10P-P2.54-V-M-1" 0 453 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_125647.html" 0 253 50 H I C CNN
+F4 "C124372" 0 53 50 H I C CNN "SuppliersPartNumber"
+F5 "std:7fe32ee41f6c413a9b4b59a88256f26b" 0 53 50 H I C CNN "uuid"
+DRAW
+S -100 550 200 -550 1 1 6 N
+C -70 520 15 1 1 6 F
+X 1 1 -200 450 100 R 50 50 1 1 I 
+X 2 2 -200 350 100 R 50 50 1 1 I 
+X 3 3 -200 250 100 R 50 50 1 1 I 
+X 4 4 -200 150 100 R 50 50 1 1 I 
+X 5 5 -200 50 100 R 50 50 1 1 I 
+X 6 6 -200 -50 100 R 50 50 1 1 I 
+X 7 7 -200 -150 100 R 50 50 1 1 I 
+X 8 8 -200 -250 100 R 50 50 1 1 I 
+X 9 9 -200 -350 100 R 50 50 1 1 I 
+X 10 10 -200 -450 100 R 50 50 1 1 I 
+ENDDRAW
+ENDDEF
+
+#
+#End Library

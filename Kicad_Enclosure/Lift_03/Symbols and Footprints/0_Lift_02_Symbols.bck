@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP B11B-ZH_(LF)(SN)
+F http://www.szlcsc.com/product/details_171725.html
+$ENDCMP
+#
+$CMP LM7805S_TR
+F http://www.szlcsc.com/product/details_520584.html
+$ENDCMP
+#
+$CMP NC4FBH
+F http://www.szlcsc.com/product/details_342465.html
+$ENDCMP
+#
+$CMP SN74LS14DR
+F http://www.szlcsc.com/product/details_8216.html
+$ENDCMP
+#
+#End Doc Library

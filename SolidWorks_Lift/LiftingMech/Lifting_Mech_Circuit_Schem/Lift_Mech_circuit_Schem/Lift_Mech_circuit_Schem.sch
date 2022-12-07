@@ -1,0 +1,708 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:VAC #PWR0101
+U 1 1 61EED9F8
+P 1850 1850
+F 0 "#PWR0101" H 1850 1750 50  0001 C CNN
+F 1 "VAC" H 1850 2125 50  0000 C CNN
+F 2 "" H 1850 1850 50  0001 C CNN
+F 3 "" H 1850 1850 50  0001 C CNN
+	1    1850 1850
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	1000 5000 3000 5000
+Wire Notes Line
+	3000 5000 3000 3000
+Wire Notes Line
+	3000 3000 1000 3000
+Wire Notes Line
+	1000 3000 1000 5000
+Text Notes 1000 3500 0    50   ~ 0
+350W 36V 9.7A 115/230V Switching Power Supply
+Text Notes 2850 4800 0    50   ~ 0
+V+\n
+Text Notes 2850 3900 0    50   ~ 0
+V-\n
+Text Notes 2850 4000 0    50   ~ 0
+V-\n
+Text Notes 2850 4100 0    50   ~ 0
+V-\n
+Text Notes 2850 4700 0    50   ~ 0
+V+\n
+Text Notes 2850 4600 0    50   ~ 0
+V+\n
+Wire Notes Line
+	5500 1500 3500 1500
+Wire Notes Line
+	3500 1500 3500 3000
+Wire Notes Line
+	3500 3000 5500 3000
+Wire Notes Line
+	5500 3000 5500 1500
+Text Notes 1500 3100 0    50   ~ 0
+Gnd\n
+Text Notes 1800 3100 0    50   ~ 0
+N\n
+Text Notes 2050 3100 0    50   ~ 0
+L\n
+$Comp
+L Device:Fuse F4
+U 1 1 61EF2FD3
+P 3250 5100
+F 0 "F4" V 3053 5100 50  0000 C CNN
+F 1 "74-IFH5" V 3144 5100 50  0000 C CNN
+F 2 "" V 3180 5100 50  0001 C CNN
+F 3 "~" H 3250 5100 50  0001 C CNN
+	1    3250 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 3000 1600 2500
+Wire Wire Line
+	1850 3000 1850 2500
+Wire Wire Line
+	2100 3000 2100 2500
+Wire Wire Line
+	2100 2500 1850 2500
+Connection ~ 1850 2500
+Wire Wire Line
+	1850 2500 1600 2500
+$Comp
+L Device:Fuse F1
+U 1 1 61EF70F7
+P 1850 2350
+F 0 "F1" H 1910 2396 50  0000 L CNN
+F 1 "Fuse" H 1910 2305 50  0000 L CNN
+F 2 "" V 1780 2350 50  0001 C CNN
+F 3 "~" H 1850 2350 50  0001 C CNN
+	1    1850 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1850 1850 2200
+Text Notes 5250 2050 3    50   ~ 0
+DM542T\n
+Text Notes 5100 2750 3    50   ~ 0
+Pul +\n
+Text Notes 5000 2750 3    50   ~ 0
+Pul -
+Text Notes 4850 2750 3    50   ~ 0
+Dir +\n
+Text Notes 4750 2750 3    50   ~ 0
+Dir -\n
+Text Notes 4600 2750 3    50   ~ 0
+ENA +
+Text Notes 4500 2750 3    50   ~ 0
+ENA -
+Text Notes 4250 2750 3    50   ~ 0
++Vdc\n
+Text Notes 4350 2750 3    50   ~ 0
+GND\n
+Text Notes 4100 2850 3    50   ~ 0
+A+\n
+Text Notes 4000 2850 3    50   ~ 0
+A-
+Text Notes 3850 2850 3    50   ~ 0
+B+\n
+Text Notes 3750 2850 3    50   ~ 0
+B-\n
+Wire Notes Line
+	8000 1500 6000 1500
+Wire Notes Line
+	6000 1500 6000 3000
+Wire Notes Line
+	6000 3000 8000 3000
+Wire Notes Line
+	8000 3000 8000 1500
+Text Notes 7750 2050 3    50   ~ 0
+DM542T\n
+Text Notes 7600 2750 3    50   ~ 0
+Pul +\n
+Text Notes 7500 2750 3    50   ~ 0
+Pul -
+Text Notes 7350 2750 3    50   ~ 0
+Dir +\n
+Text Notes 7250 2750 3    50   ~ 0
+Dir -\n
+Text Notes 7100 2750 3    50   ~ 0
+ENA +
+Text Notes 7000 2750 3    50   ~ 0
+ENA -
+Text Notes 6750 2750 3    50   ~ 0
++Vdc\n
+Text Notes 6850 2750 3    50   ~ 0
+GND\n
+Text Notes 6600 2850 3    50   ~ 0
+A+\n
+Text Notes 6500 2850 3    50   ~ 0
+A-
+Text Notes 6350 2850 3    50   ~ 0
+B+\n
+Text Notes 6250 2850 3    50   ~ 0
+B-\n
+Wire Wire Line
+	3000 4550 3300 4550
+Wire Wire Line
+	3000 4650 3300 4650
+$Comp
+L Device:Fuse F2
+U 1 1 61F00590
+P 3450 4550
+F 0 "F2" V 3253 4550 50  0000 C CNN
+F 1 "74-IFH5" V 3344 4550 50  0000 C CNN
+F 2 "" V 3380 4550 50  0001 C CNN
+F 3 "~" H 3450 4550 50  0001 C CNN
+	1    3450 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F3
+U 1 1 61F00C1E
+P 3450 4850
+F 0 "F3" V 3253 4850 50  0000 C CNN
+F 1 "74-IFH5" V 3344 4850 50  0000 C CNN
+F 2 "" V 3380 4850 50  0001 C CNN
+F 3 "~" H 3450 4850 50  0001 C CNN
+	1    3450 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 3000 3700 3150
+Wire Wire Line
+	3800 3000 3800 3150
+Wire Wire Line
+	3950 3000 3950 3150
+Wire Wire Line
+	4050 3000 4050 3150
+Wire Wire Line
+	3700 3150 3800 3150
+Connection ~ 3800 3150
+Wire Wire Line
+	3800 3150 3850 3150
+Connection ~ 3950 3150
+Wire Wire Line
+	3950 3150 4050 3150
+Wire Wire Line
+	3850 3150 3850 3250
+Connection ~ 3850 3150
+Wire Wire Line
+	3850 3150 3950 3150
+Text Notes 3450 3350 0    50   ~ 0
+Stepper Motor 1
+Wire Wire Line
+	6200 3000 6200 3150
+Wire Wire Line
+	6300 3000 6300 3150
+Wire Wire Line
+	6450 3000 6450 3150
+Wire Wire Line
+	6550 3000 6550 3150
+Wire Wire Line
+	6200 3150 6300 3150
+Connection ~ 6300 3150
+Wire Wire Line
+	6300 3150 6350 3150
+Connection ~ 6450 3150
+Wire Wire Line
+	6450 3150 6550 3150
+Wire Wire Line
+	6350 3150 6350 3250
+Connection ~ 6350 3150
+Wire Wire Line
+	6350 3150 6450 3150
+Text Notes 5950 3350 0    50   ~ 0
+Stepper Motor 2\n
+Wire Wire Line
+	3250 4750 3250 4950
+Wire Wire Line
+	3300 4650 3300 4850
+Wire Wire Line
+	3250 4750 3000 4750
+$Comp
+L 0My_Library:Arduino_101_Shield XA?
+U 1 1 61F0BAAB
+P 6050 6150
+F 0 "XA?" H 6050 7537 60  0000 C CNN
+F 1 "Arduino_101_Shield" H 6050 7431 60  0000 C CNN
+F 2 "" H 7850 9900 60  0001 C CNN
+F 3 "https://store.arduino.cc/genuino-101" H 7850 9900 60  0001 C CNN
+	1    6050 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C?
+U 1 1 61F1CD7B
+P 1300 6350
+F 0 "C?" H 1478 6396 50  0000 L CNN
+F 1 "0.1uf" H 1478 6305 50  0000 L CNN
+F 2 "" H 1300 6350 50  0001 C CNN
+F 3 "~" H 1300 6350 50  0001 C CNN
+	1    1300 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:CAP C?
+U 1 1 61F20730
+P 3200 6350
+F 0 "C?" H 3378 6396 50  0000 L CNN
+F 1 "1uf" H 3378 6305 50  0000 L CNN
+F 2 "" H 3200 6350 50  0001 C CNN
+F 3 "~" H 3200 6350 50  0001 C CNN
+	1    3200 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61F212F9
+P 2600 6100
+F 0 "R?" H 2670 6146 50  0000 L CNN
+F 1 "1000" H 2670 6055 50  0000 L CNN
+F 2 "" V 2530 6100 50  0001 C CNN
+F 3 "~" H 2600 6100 50  0001 C CNN
+	1    2600 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 6100 3200 5950
+Connection ~ 3200 5950
+$Comp
+L Device:R_POT RV?
+U 1 1 61F23CF9
+P 2250 6400
+F 0 "RV?" H 2181 6446 50  0000 R CNN
+F 1 "R_POT" H 2181 6355 50  0000 R CNN
+F 2 "" H 2250 6400 50  0001 C CNN
+F 3 "~" H 2250 6400 50  0001 C CNN
+	1    2250 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 6600 1300 6750
+Wire Wire Line
+	1300 6750 2250 6750
+Wire Wire Line
+	3200 6750 3600 6750
+Connection ~ 3200 6750
+Wire Wire Line
+	3200 6600 3200 6750
+Connection ~ 1300 6750
+Wire Wire Line
+	1300 6100 1300 6050
+Wire Wire Line
+	1300 6050 900  6050
+Wire Wire Line
+	2250 6550 2250 6750
+Connection ~ 2250 6750
+Wire Wire Line
+	2250 6750 3200 6750
+Wire Notes Line
+	1900 5850 1900 6150
+Wire Notes Line
+	1900 6150 2300 6150
+Wire Notes Line
+	2300 6150 2300 5850
+Wire Notes Line
+	2300 5850 1900 5850
+Text Notes 2000 5950 0    50   ~ 0
+LM317\n
+Wire Wire Line
+	1300 6050 1900 6050
+Connection ~ 1300 6050
+Wire Wire Line
+	2250 6150 2250 6250
+Wire Wire Line
+	2300 5950 2600 5950
+Connection ~ 2600 5950
+Wire Wire Line
+	2600 5950 3200 5950
+Wire Wire Line
+	2600 6250 2250 6250
+Connection ~ 2250 6250
+Wire Wire Line
+	4300 5950 4300 7200
+Wire Wire Line
+	4300 7200 4750 7200
+Wire Wire Line
+	3200 5950 4300 5950
+Wire Wire Line
+	3600 6750 3600 6700
+Wire Wire Line
+	800  6750 1300 6750
+Wire Wire Line
+	5050 3000 5050 3400
+Wire Wire Line
+	5050 3400 7600 3400
+Wire Wire Line
+	7600 3400 7600 3000
+Wire Wire Line
+	4800 3000 4800 3650
+Wire Wire Line
+	4800 3650 7300 3650
+Wire Wire Line
+	7300 3650 7300 3000
+Wire Wire Line
+	7300 3650 7450 3650
+Connection ~ 7300 3650
+Wire Notes Line
+	9250 5300 9750 5300
+Wire Notes Line
+	9250 5800 9250 5300
+Text Notes 9300 5400 0    50   ~ 0
+V+\n
+Text Notes 9300 5550 0    50   ~ 0
+NC
+Text Notes 9300 5700 0    50   ~ 0
+NO
+Text Notes 9550 5700 0    50   ~ 0
+GND\n
+Text Notes 9450 5800 0    50   ~ 0
+C
+Wire Notes Line
+	9750 5800 9250 5800
+Wire Notes Line
+	9750 5300 9750 5800
+Wire Notes Line
+	9250 6350 9750 6350
+Wire Notes Line
+	9250 6850 9250 6350
+Text Notes 9300 6450 0    50   ~ 0
+V+\n
+Text Notes 9300 6600 0    50   ~ 0
+NC
+Text Notes 9300 6750 0    50   ~ 0
+NO
+Text Notes 9550 6750 0    50   ~ 0
+GND\n
+Text Notes 9450 6850 0    50   ~ 0
+C
+Wire Notes Line
+	9750 6850 9250 6850
+Wire Notes Line
+	9750 6350 9750 6850
+Text Notes 9450 5250 0    50   ~ 0
+Up
+Text Notes 9400 6350 0    50   ~ 0
+Down
+Wire Wire Line
+	9250 5500 9150 5500
+Wire Wire Line
+	9250 6550 9150 6550
+Wire Wire Line
+	7350 5500 7850 5500
+Wire Wire Line
+	7850 5500 7850 7000
+Wire Wire Line
+	7850 7000 9500 7000
+Wire Wire Line
+	9500 7000 9500 6850
+Wire Wire Line
+	9500 5800 9500 5900
+$Comp
+L power:GND #PWR?
+U 1 1 61F84387
+P 9150 5500
+F 0 "#PWR?" H 9150 5250 50  0001 C CNN
+F 1 "GND" V 9155 5372 50  0000 R CNN
+F 2 "" H 9150 5500 50  0001 C CNN
+F 3 "" H 9150 5500 50  0001 C CNN
+	1    9150 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61F84E74
+P 9150 6550
+F 0 "#PWR?" H 9150 6300 50  0001 C CNN
+F 1 "GND" V 9155 6422 50  0000 R CNN
+F 2 "" H 9150 6550 50  0001 C CNN
+F 3 "" H 9150 6550 50  0001 C CNN
+	1    9150 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61F854E2
+P 9750 5650
+F 0 "#PWR?" H 9750 5400 50  0001 C CNN
+F 1 "GND" V 9755 5522 50  0000 R CNN
+F 2 "" H 9750 5650 50  0001 C CNN
+F 3 "" H 9750 5650 50  0001 C CNN
+	1    9750 5650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61F85E2F
+P 9750 6700
+F 0 "#PWR?" H 9750 6450 50  0001 C CNN
+F 1 "GND" V 9755 6572 50  0000 R CNN
+F 2 "" H 9750 6700 50  0001 C CNN
+F 3 "" H 9750 6700 50  0001 C CNN
+	1    9750 6700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7350 5800 7600 5800
+Wire Wire Line
+	7600 5800 7600 3400
+Connection ~ 7600 3400
+Wire Wire Line
+	7450 3650 7450 5900
+Wire Wire Line
+	7450 5900 7350 5900
+Wire Wire Line
+	7950 5400 7950 5900
+Wire Wire Line
+	7950 5900 9500 5900
+Wire Wire Line
+	7350 5400 7950 5400
+Wire Wire Line
+	4550 3000 4550 3700
+Wire Wire Line
+	4550 3700 7050 3700
+Wire Wire Line
+	7050 3700 7050 3000
+Wire Wire Line
+	7050 3700 7750 3700
+Wire Wire Line
+	7750 3700 7750 6000
+Wire Wire Line
+	7750 6000 7350 6000
+Connection ~ 7050 3700
+Wire Notes Line
+	10000 4000 9500 4000
+Wire Notes Line
+	9500 4000 9500 4500
+Wire Notes Line
+	9500 4500 10000 4500
+Wire Notes Line
+	10000 4500 10000 4000
+Text Notes 9550 4150 0    50   ~ 0
+V+
+Text Notes 9550 4250 0    50   ~ 0
+C\n
+Text Notes 9550 4350 0    50   ~ 0
+GND
+Text Notes 9550 3950 0    50   ~ 0
+ENA Switch
+Wire Wire Line
+	9500 4200 8100 4200
+Wire Wire Line
+	8100 4200 8100 5300
+Wire Wire Line
+	8100 5300 7350 5300
+Wire Notes Line
+	9000 3000 10000 3000
+Wire Notes Line
+	10000 3000 10000 3500
+Wire Notes Line
+	10000 3500 9000 3500
+Wire Notes Line
+	9000 3500 9000 3000
+Text Notes 9300 2950 0    50   ~ 0
+Limit Switch\n
+Wire Notes Line
+	9000 2350 10000 2350
+Wire Notes Line
+	10000 2350 10000 2850
+Wire Notes Line
+	10000 2850 9000 2850
+Wire Notes Line
+	9000 2850 9000 2350
+Text Notes 9300 2300 0    50   ~ 0
+Limit Switch\n
+Text Notes 9050 2500 0    50   ~ 0
+COM
+Text Notes 9050 3150 0    50   ~ 0
+COM
+Text Notes 9050 2600 0    50   ~ 0
+NO
+Text Notes 9050 3250 0    50   ~ 0
+NO
+Wire Wire Line
+	8500 5200 7350 5200
+Wire Wire Line
+	8350 5100 7350 5100
+Wire Notes Line
+	9500 4550 9500 5050
+Wire Notes Line
+	9500 5050 10000 5050
+Wire Notes Line
+	10000 5050 10000 4550
+Wire Notes Line
+	10000 4550 9500 4550
+Text Notes 10000 4700 0    50   ~ 0
+Turbo Switch
+Text Notes 9550 4650 0    50   ~ 0
+V+
+Text Notes 9550 4800 0    50   ~ 0
+C
+Text Notes 9550 4950 0    50   ~ 0
+GND
+$Comp
+L power:GND #PWR?
+U 1 1 61FF4F9B
+P 9500 4900
+F 0 "#PWR?" H 9500 4650 50  0001 C CNN
+F 1 "GND" V 9505 4772 50  0000 R CNN
+F 2 "" H 9500 4900 50  0001 C CNN
+F 3 "" H 9500 4900 50  0001 C CNN
+	1    9500 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 4750 8600 4750
+Wire Wire Line
+	8600 4750 8600 5600
+Wire Wire Line
+	8600 5600 7350 5600
+Wire Notes Line
+	1000 5750 4050 5750
+Wire Notes Line
+	4050 5750 4050 7050
+Wire Notes Line
+	4050 7050 1000 7050
+Wire Notes Line
+	1000 7050 1000 5750
+Text Notes 2200 7000 0    50   ~ 0
+36V to 9V
+Text Label 3600 4550 0    50   ~ 0
+V1+
+Text Label 3600 4850 0    50   ~ 0
+V2+
+Text Label 3250 5300 0    50   ~ 0
+V3+
+Wire Wire Line
+	3000 3850 3500 3850
+Wire Wire Line
+	3000 3950 3500 3950
+Wire Wire Line
+	3000 4050 3500 4050
+Text Label 3500 3850 0    50   ~ 0
+V1-
+Text Label 3500 3950 0    50   ~ 0
+V2-
+Text Label 3500 4050 0    50   ~ 0
+V3-
+Text Label 900  6050 0    50   ~ 0
+V3+
+Text Label 800  6750 0    50   ~ 0
+V3-
+Wire Wire Line
+	3250 5250 3250 5300
+Wire Wire Line
+	4200 3000 4200 3200
+Wire Wire Line
+	4300 3000 4300 3200
+Text Label 4200 3200 1    50   ~ 0
+V1+
+Text Label 4300 3200 1    50   ~ 0
+V1-
+NoConn ~ 7650 2500
+Wire Wire Line
+	6750 3000 6750 3150
+Wire Wire Line
+	6850 3000 6850 3150
+Text Label 6750 3150 1    50   ~ 0
+V2+
+Text Label 6850 3150 1    50   ~ 0
+V2-
+Wire Wire Line
+	3600 6700 4750 6700
+Text Label 4750 6800 2    50   ~ 0
+GND
+Wire Wire Line
+	4450 3000 4450 3200
+Wire Wire Line
+	4700 3000 4700 3200
+Wire Wire Line
+	4950 3000 4950 3200
+Wire Wire Line
+	6950 3000 6950 3150
+Wire Wire Line
+	7200 3000 7200 3150
+Wire Wire Line
+	7450 3000 7450 3150
+Text Label 7450 3150 1    50   ~ 0
+GND
+Text Label 7200 3150 1    50   ~ 0
+GND
+Text Label 6950 3150 1    50   ~ 0
+GND
+Text Label 4950 3200 1    50   ~ 0
+GND
+Text Label 4700 3200 1    50   ~ 0
+GND
+Text Label 4450 3200 1    50   ~ 0
+GND
+Text Label 4750 7100 2    50   ~ 0
+5V+
+Text Label 9100 6400 2    50   ~ 0
+5V+
+Text Label 9100 5350 2    50   ~ 0
+5V+
+Text Label 9350 4600 2    50   ~ 0
+5V+
+Text Label 9350 4100 2    50   ~ 0
+5V+
+Text Label 8850 3250 2    50   ~ 0
+5V+
+Text Label 8850 2550 2    50   ~ 0
+5V+
+Wire Wire Line
+	9250 6400 9100 6400
+Wire Wire Line
+	9250 6750 9100 6750
+Wire Wire Line
+	9250 5700 9100 5700
+Wire Wire Line
+	9500 4600 9350 4600
+Wire Wire Line
+	9500 4100 9350 4100
+Wire Wire Line
+	9000 3250 8850 3250
+Wire Wire Line
+	9000 2550 8850 2550
+Wire Wire Line
+	9250 5350 9100 5350
+Text Label 9100 5700 2    50   ~ 0
+5V+
+Text Label 9100 6750 2    50   ~ 0
+5V+
+Wire Wire Line
+	9500 4350 9350 4350
+$Comp
+L power:GND #PWR?
+U 1 1 621323A7
+P 9350 4350
+F 0 "#PWR?" H 9350 4100 50  0001 C CNN
+F 1 "GND" V 9355 4222 50  0000 R CNN
+F 2 "" H 9350 4350 50  0001 C CNN
+F 3 "" H 9350 4350 50  0001 C CNN
+	1    9350 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8350 2450 9000 2450
+Wire Wire Line
+	8350 2450 8350 5100
+Wire Wire Line
+	8500 3100 9000 3100
+Wire Wire Line
+	8500 3100 8500 5200
+$EndSCHEMATC

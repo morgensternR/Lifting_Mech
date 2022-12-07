@@ -1,0 +1,52 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr User 17016 11067
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	1800 700  6800 700 
+Wire Wire Line
+	6800 700  6800 5300
+Wire Wire Line
+	6800 5300 1800 5300
+Wire Wire Line
+	1800 5300 1800 700 
+$Comp
+L Landungsbrücke_v20-eagle-import:FRAME_TMC_A3L_LOGO #U$5
+U 1 1 BCE09641
+P 1100 10200
+AR Path="/BCE09641" Ref="#U$5"  Part="1" 
+AR Path="/5CC9AF65/BCE09641" Ref="#U$5"  Part="1" 
+F 0 "#U$5" H 1100 10200 50  0001 C CNN
+F 1 "FRAME_TMC_A3L_LOGO" H 1100 10200 50  0001 C CNN
+F 2 "" H 1100 10200 50  0001 C CNN
+F 3 "" H 1100 10200 50  0001 C CNN
+	1    1100 10200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Landungsbrücke_v20-eagle-import:FRAME_TMC_A3L_LOGO #U$5
+U 2 1 BCE0964D
+P 13140 9950
+AR Path="/BCE0964D" Ref="#U$5"  Part="2" 
+AR Path="/5CC9AF65/BCE0964D" Ref="#U$5"  Part="2" 
+F 0 "#U$5" H 13140 9950 50  0001 C CNN
+F 1 "FRAME_TMC_A3L_LOGO" H 13140 9950 50  0001 C CNN
+F 2 "" H 13140 9950 50  0001 C CNN
+F 3 "" H 13140 9950 50  0001 C CNN
+	2    13140 9950
+	1    0    0    -1  
+$EndComp
+Text Notes 1900 800  0    100  ~ 0
+Revision History\nV1.2 → V2.0\n• USB connector change: USB mini to USB-C.\n• Added MCU reset to programming pads on bottom side.\n• Replaced suppressor diode D2.\n• Used PINs 33, 47 and 57 for hardwired version identifier 0b010.
+$EndSCHEMATC

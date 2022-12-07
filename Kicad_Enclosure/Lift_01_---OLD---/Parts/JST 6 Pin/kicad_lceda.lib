@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# BM06B-SRSS-TB(LF)(SN)
+#
+DEF BM06B-SRSS-TB(LF)(SN) U 0 40 Y Y 1 F N
+F0 "U" 0 420 50 H V C CNN
+F1 "BM06B-SRSS-TB(LF)(SN)" 0 620 50 H V C CNN
+F2 "kicad_lceda:CONN-SMD-6P-P1.00_BM06B-SRSS-TB-LF-SN" 0 220 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_171772.html" 0 20 50 H I C CNN
+F4 "C160392" 0 -180 50 H I C CNN "SuppliersPartNumber"
+F5 "std:a3b0374edab74ea39cd3f4ce575862ff" 0 -180 50 H I C CNN "uuid"
+DRAW
+X 1 1 -300 300 200 D 50 50 1 1 I 
+X 2 2 -200 300 200 D 50 50 1 1 I 
+X 3 3 -100 300 200 D 50 50 1 1 I 
+X 4 4 0 300 200 D 50 50 1 1 I 
+X 5 5 100 300 200 D 50 50 1 1 I 
+X 6 6 200 300 200 D 50 50 1 1 I 
+X 7 7 500 -100 200 L 50 50 1 1 I 
+S -400 100 300 -200 1 1 6 N
+X 8 8 -600 -100 200 R 50 50 1 1 I 
+ENDDRAW
+ENDDEF
+
+#
+#End Library

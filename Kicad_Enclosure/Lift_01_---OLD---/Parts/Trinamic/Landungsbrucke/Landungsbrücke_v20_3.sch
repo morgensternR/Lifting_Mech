@@ -1,0 +1,1959 @@
+EESchema Schematic File Version 4
+LIBS:Landungsbrücke_v20-cache
+EELAYER 29 0
+EELAYER END
+$Descr User 17016 11478
+encoding utf-8
+Sheet 3 4
+Title "Landungsbrücke"
+Date "2019-05-01"
+Rev "2.0"
+Comp "Trinamic OÜ"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	11800 5200 11700 5200
+Wire Wire Line
+	11700 5200 11700 5600
+Wire Wire Line
+	12200 9900 12200 9800
+Wire Wire Line
+	11800 9800 11800 9900
+Wire Wire Line
+	11400 9900 11400 9800
+Wire Wire Line
+	11000 9900 11000 9800
+Wire Wire Line
+	10700 9900 10700 9800
+Wire Wire Line
+	10400 9900 10400 9800
+Wire Wire Line
+	12300 1300 13200 1300
+Wire Wire Line
+	13200 1300 13200 3400
+Wire Wire Line
+	11100 1300 10200 1300
+Wire Wire Line
+	10200 1300 10200 3300
+Wire Wire Line
+	12300 3400 13200 3400
+Wire Wire Line
+	13200 3400 13200 3800
+Wire Wire Line
+	11100 3300 10200 3300
+Wire Wire Line
+	10200 3300 10200 3800
+Wire Wire Line
+	13600 9100 13000 9100
+Wire Wire Line
+	13000 9100 13000 9400
+Wire Wire Line
+	3100 1900 3100 2200
+Wire Wire Line
+	6600 1900 6600 2200
+Wire Wire Line
+	3000 3900 3000 4200
+Wire Wire Line
+	6600 3900 6600 4200
+Wire Wire Line
+	3000 5800 3000 6100
+Wire Wire Line
+	3000 7800 3000 8100
+Wire Wire Line
+	6600 7800 6600 8100
+Wire Wire Line
+	2900 9800 2900 10100
+Wire Wire Line
+	6600 9800 6600 10100
+Wire Wire Line
+	12100 7400 12100 7700
+Wire Wire Line
+	3100 1100 3100 700 
+Wire Wire Line
+	3100 700  3300 700 
+Text GLabel 3300 700  2    40   BiDi ~ 0
++3V3
+Wire Wire Line
+	6600 1100 6600 700 
+Wire Wire Line
+	6600 700  6800 700 
+Text GLabel 6800 700  2    40   BiDi ~ 0
++3V3
+Wire Wire Line
+	3000 3100 3000 2700
+Wire Wire Line
+	3000 2700 3200 2700
+Text GLabel 3200 2700 2    40   BiDi ~ 0
++3V3
+Wire Wire Line
+	6600 3100 6600 2700
+Wire Wire Line
+	6600 2700 6800 2700
+Text GLabel 6800 2700 2    40   BiDi ~ 0
++3V3
+Wire Wire Line
+	3000 5000 3000 4600
+Wire Wire Line
+	3000 4600 3200 4600
+Text GLabel 3200 4600 2    40   BiDi ~ 0
++3V3
+Wire Wire Line
+	6600 5100 6600 4700
+Wire Wire Line
+	6600 4700 6800 4700
+Text GLabel 6800 4700 2    40   BiDi ~ 0
++3V3
+Wire Wire Line
+	3000 7000 3000 6600
+Wire Wire Line
+	3000 6600 3200 6600
+Text GLabel 3200 6600 2    40   BiDi ~ 0
++3V3
+Wire Wire Line
+	6600 7000 6600 6600
+Wire Wire Line
+	6600 6600 6800 6600
+Text GLabel 6800 6600 2    40   BiDi ~ 0
++3V3
+Wire Wire Line
+	2900 9000 2900 8600
+Wire Wire Line
+	2900 8600 3100 8600
+Text GLabel 3100 8600 2    40   BiDi ~ 0
++3V3
+Wire Wire Line
+	6600 9000 6600 8600
+Wire Wire Line
+	6600 8600 6800 8600
+Text GLabel 6800 8600 2    40   BiDi ~ 0
++3V3
+Wire Wire Line
+	14400 9100 14500 9100
+Text GLabel 14500 9100 2    30   BiDi ~ 0
++3V3
+Wire Wire Line
+	11800 4600 11700 4600
+Text Label 11700 4600 2    40   ~ 0
+EXT0
+Wire Wire Line
+	6700 5100 6700 4900
+Wire Wire Line
+	6700 4900 6700 4800
+Wire Wire Line
+	6700 4800 7500 4800
+Connection ~ 6700 4900
+Text Label 7500 4800 0    40   ~ 0
+EXT0
+Wire Wire Line
+	11800 4700 11700 4700
+Text Label 11700 4700 2    40   ~ 0
+EXT1
+Wire Wire Line
+	6500 5000 6500 5100
+Wire Wire Line
+	6500 5000 6500 4800
+Wire Wire Line
+	6500 4800 5700 4800
+Connection ~ 6500 5000
+Text Label 5700 4800 2    40   ~ 0
+EXT1
+Wire Wire Line
+	11700 4800 11800 4800
+Text Label 11700 4800 2    40   ~ 0
+EXT2
+Wire Wire Line
+	3100 8000 3100 7800
+Wire Wire Line
+	3100 8000 3100 8100
+Wire Wire Line
+	3100 8100 3900 8100
+Connection ~ 3100 8000
+Text Label 3900 8100 0    40   ~ 0
+EXT2
+Wire Wire Line
+	11700 4900 11800 4900
+Text Label 11700 4900 2    40   ~ 0
+EXT3
+Wire Wire Line
+	3300 7900 2900 7900
+Wire Wire Line
+	2900 7900 2900 7800
+Wire Wire Line
+	2900 7900 2900 8100
+Wire Wire Line
+	2900 8100 2100 8100
+Connection ~ 2900 7900
+Text Label 2100 8100 2    40   ~ 0
+EXT3
+Wire Wire Line
+	11800 4500 11700 4500
+Text GLabel 11700 4500 0    40   BiDi ~ 0
++5V_USB
+Wire Wire Line
+	10800 3200 11100 3200
+Text GLabel 10800 3200 0    40   BiDi ~ 0
++5V_USB
+Wire Wire Line
+	12100 6600 12100 6200
+Wire Wire Line
+	12100 6200 12300 6200
+Text GLabel 12300 6200 2    40   BiDi ~ 0
++5V_USB
+Wire Wire Line
+	10700 8300 10200 8300
+Wire Wire Line
+	10700 8550 10700 8300
+Text Label 10200 8300 2    40   ~ 0
+AIN1
+Wire Wire Line
+	10800 2700 11100 2700
+Text Label 10800 2700 2    40   ~ 0
+AIN1
+Wire Wire Line
+	12000 6300 11200 6300
+Text Label 11200 6300 2    40   ~ 0
+AIN1
+Wire Wire Line
+	11000 8550 11000 8200
+Wire Wire Line
+	11000 8200 10200 8200
+Text Label 10200 8200 2    40   ~ 0
+AIN0
+Wire Wire Line
+	12300 2800 12700 2800
+Text Label 12700 2800 0    40   ~ 0
+AIN0
+Wire Wire Line
+	12400 6500 12200 6500
+Wire Wire Line
+	12200 6500 12200 6300
+Wire Wire Line
+	12200 6300 13000 6300
+Wire Wire Line
+	12200 6500 12200 6600
+Text Label 13000 6300 0    40   ~ 0
+AIN0
+Connection ~ 12200 6500
+Wire Wire Line
+	10400 8400 10200 8400
+Wire Wire Line
+	10400 8400 10400 8550
+Text Label 10200 8400 2    40   ~ 0
+AIN2
+Wire Wire Line
+	12300 2700 12700 2700
+Text Label 12700 2700 0    40   ~ 0
+AIN2
+Text Label 11200 7700 2    30   ~ 0
+AIN2
+Wire Wire Line
+	11000 9500 11000 9000
+Wire Wire Line
+	11000 9000 11000 8850
+Wire Wire Line
+	12200 9500 12200 9000
+Wire Wire Line
+	11000 9000 12200 9000
+Wire Wire Line
+	12200 9000 12300 9000
+Connection ~ 11000 9000
+Connection ~ 12200 9000
+Text GLabel 12300 9000 2    40   BiDi ~ 0
+AIN0_+3V3
+Wire Wire Line
+	13600 9000 13500 9000
+Text GLabel 13500 9000 0    30   BiDi ~ 0
+AIN0_+3V3
+Wire Wire Line
+	10700 8850 10700 9100
+Wire Wire Line
+	10700 9100 10700 9500
+Wire Wire Line
+	11800 9500 11800 9100
+Wire Wire Line
+	10700 9100 11800 9100
+Wire Wire Line
+	11800 9100 12300 9100
+Connection ~ 10700 9100
+Connection ~ 11800 9100
+Text GLabel 12300 9100 2    40   BiDi ~ 0
+AIN1_+3V3
+Wire Wire Line
+	14400 9200 14500 9200
+Text GLabel 14500 9200 2    30   BiDi ~ 0
+AIN1_+3V3
+Wire Wire Line
+	10400 8850 10400 9200
+Wire Wire Line
+	10400 9200 10400 9500
+Wire Wire Line
+	11400 9500 11400 9200
+Wire Wire Line
+	11400 9200 10400 9200
+Wire Wire Line
+	11400 9200 12300 9200
+Connection ~ 10400 9200
+Connection ~ 11400 9200
+Text GLabel 12300 9200 2    40   BiDi ~ 0
+AIN2_+3V3
+Wire Wire Line
+	14400 9000 14500 9000
+Text GLabel 14500 9000 2    30   BiDi ~ 0
+AIN2_+3V3
+Wire Wire Line
+	10500 3400 11100 3400
+Text GLabel 10500 3400 0    30   BiDi ~ 0
+VM
+Wire Wire Line
+	10800 3100 11100 3100
+Text Label 10800 3100 2    40   ~ 0
+ID_CH1
+Wire Wire Line
+	6700 7000 6700 6800
+Wire Wire Line
+	6700 6800 6700 6700
+Wire Wire Line
+	6700 6700 7500 6700
+Connection ~ 6700 6800
+Text Label 7500 6700 0    40   ~ 0
+ID_CH1
+Wire Wire Line
+	10800 3000 11100 3000
+Text Label 10800 3000 2    40   ~ 0
+DIO1
+Wire Wire Line
+	6700 9000 6700 8800
+Wire Wire Line
+	6700 8800 6700 8700
+Wire Wire Line
+	6700 8700 7500 8700
+Connection ~ 6700 8800
+Text Label 7500 8700 0    40   ~ 0
+DIO1
+Wire Wire Line
+	10800 2900 11100 2900
+Text Label 10800 2900 2    40   ~ 0
+DIO3
+Wire Wire Line
+	6500 4000 6500 3900
+Wire Wire Line
+	6500 4000 6500 4200
+Wire Wire Line
+	6500 4200 5600 4200
+Connection ~ 6500 4000
+Text Label 5600 4200 2    40   ~ 0
+DIO3
+Wire Wire Line
+	10800 2800 11100 2800
+Text Label 10800 2800 2    40   ~ 0
+DIO5
+Wire Wire Line
+	6700 3100 6700 2900
+Wire Wire Line
+	6700 2900 6700 2800
+Wire Wire Line
+	6700 2800 7600 2800
+Connection ~ 6700 2900
+Text Label 7600 2800 0    40   ~ 0
+DIO5
+Wire Wire Line
+	10800 2600 11100 2600
+Text Label 10800 2600 2    40   ~ 0
+DIO6
+Wire Wire Line
+	2800 8900 2800 9000
+Wire Wire Line
+	2800 8900 2800 8700
+Wire Wire Line
+	2800 8700 2000 8700
+Connection ~ 2800 8900
+Text Label 2000 8700 2    40   ~ 0
+DIO6
+Wire Wire Line
+	10800 2500 11100 2500
+Text Label 10800 2500 2    40   ~ 0
+DIO8
+Wire Wire Line
+	3200 1100 3200 900 
+Wire Wire Line
+	3200 900  3200 800 
+Wire Wire Line
+	3200 800  3800 800 
+Connection ~ 3200 900 
+Text Label 3800 800  0    40   ~ 0
+DIO8
+Wire Wire Line
+	10800 2400 11100 2400
+Text Label 10800 2400 2    40   ~ 0
+DIO10
+Wire Wire Line
+	6500 6000 6500 5900
+Wire Wire Line
+	6500 6000 6500 6200
+Wire Wire Line
+	6500 6200 5700 6200
+Connection ~ 6500 6000
+Text Label 5700 6200 2    40   ~ 0
+DIO10
+Wire Wire Line
+	10800 2300 11100 2300
+Text Label 10800 2300 2    40   ~ 0
+CLK16
+Wire Wire Line
+	3000 9000 3000 8800
+Wire Wire Line
+	3000 8800 3000 8700
+Wire Wire Line
+	3000 8700 3900 8700
+Connection ~ 3000 8800
+Text Label 3900 8700 0    40   ~ 0
+CLK16
+Wire Wire Line
+	10800 2200 11100 2200
+Text Label 10800 2200 2    40   ~ 0
+SPI2_CSN1
+Wire Wire Line
+	6700 8000 6700 7800
+Wire Wire Line
+	6700 8000 6700 8100
+Wire Wire Line
+	6700 8100 7500 8100
+Connection ~ 6700 8000
+Text Label 7500 8100 0    40   ~ 0
+SPI2_CSN1
+Wire Wire Line
+	10800 2100 11100 2100
+Text Label 10800 2100 2    40   ~ 0
+SPI2_SCK
+Wire Wire Line
+	2900 4000 2900 3900
+Wire Wire Line
+	2900 4000 2900 4200
+Wire Wire Line
+	2900 4200 2100 4200
+Connection ~ 2900 4000
+Text Label 2100 4200 2    40   ~ 0
+SPI2_SCK
+Wire Wire Line
+	10800 2000 11100 2000
+Text Label 10800 2000 2    40   ~ 0
+SPI2_SDI
+Wire Wire Line
+	2900 3000 2900 3100
+Wire Wire Line
+	2900 3000 2900 2800
+Wire Wire Line
+	2900 2800 2100 2800
+Connection ~ 2900 3000
+Text Label 2100 2800 2    40   ~ 0
+SPI2_SDI
+Wire Wire Line
+	10800 1900 11100 1900
+Text Label 10800 1900 2    40   ~ 0
+SPI1_SCK
+Wire Wire Line
+	2900 5900 2900 5800
+Wire Wire Line
+	2900 5900 2900 6100
+Wire Wire Line
+	2900 6100 2100 6100
+Connection ~ 2900 5900
+Text Label 2100 6100 2    40   ~ 0
+SPI1_SCK
+Wire Wire Line
+	10800 1800 11100 1800
+Text Label 10800 1800 2    40   ~ 0
+SPI1_SDO
+Wire Wire Line
+	3100 4100 3100 3900
+Wire Wire Line
+	3100 4100 3100 4200
+Wire Wire Line
+	3100 4200 3900 4200
+Connection ~ 3100 4100
+Text Label 3900 4200 0    40   ~ 0
+SPI1_SDO
+Wire Wire Line
+	10800 1700 11100 1700
+Text Label 10800 1700 2    40   ~ 0
+DIO13
+Wire Wire Line
+	6700 2200 7400 2200
+Text Label 7400 2200 0    40   ~ 0
+DIO13
+Wire Wire Line
+	10800 1500 11100 1500
+Text Label 10800 1500 2    40   ~ 0
+DIO17
+Wire Wire Line
+	3000 2000 3000 1900
+Wire Wire Line
+	3000 2000 3000 2200
+Wire Wire Line
+	3000 2200 2400 2200
+Connection ~ 3000 2000
+Text Label 2400 2200 2    40   ~ 0
+DIO17
+Wire Wire Line
+	10800 1400 11100 1400
+Text Label 10800 1400 2    40   ~ 0
+DIO19
+Wire Wire Line
+	6500 9900 6500 9800
+Wire Wire Line
+	6500 9900 6500 10100
+Wire Wire Line
+	6500 10100 5700 10100
+Connection ~ 6500 9900
+Text Label 5700 10100 2    40   ~ 0
+DIO19
+Wire Wire Line
+	12300 3200 12700 3200
+Text Label 12700 3200 0    40   ~ 0
+ID_CH0
+Wire Wire Line
+	6500 6900 6500 7000
+Wire Wire Line
+	6500 6900 6500 6700
+Wire Wire Line
+	6500 6700 5700 6700
+Connection ~ 6500 6900
+Text Label 5700 6700 2    40   ~ 0
+ID_CH0
+Wire Wire Line
+	12300 3100 12700 3100
+Text Label 12700 3100 0    40   ~ 0
+DIO0
+Wire Wire Line
+	6500 9000 6500 8900
+Wire Wire Line
+	6500 8900 6500 8700
+Wire Wire Line
+	6500 8700 5700 8700
+Connection ~ 6500 8900
+Text Label 5700 8700 2    40   ~ 0
+DIO0
+Wire Wire Line
+	12300 3000 12700 3000
+Text Label 12700 3000 0    40   ~ 0
+DIO2
+Wire Wire Line
+	6700 4200 7600 4200
+Text Label 7600 4200 0    40   ~ 0
+DIO2
+Wire Wire Line
+	12300 2900 12700 2900
+Text Label 12700 2900 0    40   ~ 0
+DIO4
+Wire Wire Line
+	6500 3000 6500 3100
+Wire Wire Line
+	6500 3000 6500 2800
+Wire Wire Line
+	6500 2800 5600 2800
+Connection ~ 6500 3000
+Text Label 5600 2800 2    40   ~ 0
+DIO4
+Wire Wire Line
+	12300 2600 12700 2600
+Text Label 12700 2600 0    40   ~ 0
+DIO7
+Wire Wire Line
+	2800 9900 2800 9800
+Wire Wire Line
+	2800 9900 2800 10100
+Wire Wire Line
+	2800 10100 2000 10100
+Connection ~ 2800 9900
+Text Label 2000 10100 2    40   ~ 0
+DIO7
+Wire Wire Line
+	12300 2500 12700 2500
+Text Label 12700 2500 0    40   ~ 0
+DIO9
+Wire Wire Line
+	3000 1000 3000 1100
+Wire Wire Line
+	3000 1000 3000 800 
+Wire Wire Line
+	3000 800  2400 800 
+Connection ~ 3000 1000
+Text Label 2400 800  2    40   ~ 0
+DIO9
+Wire Wire Line
+	12300 2400 12700 2400
+Text Label 12700 2400 0    40   ~ 0
+DIO11
+Wire Wire Line
+	6700 6100 6700 5900
+Wire Wire Line
+	6700 6100 6700 6200
+Wire Wire Line
+	6700 6200 7500 6200
+Connection ~ 6700 6100
+Text Label 7500 6200 0    40   ~ 0
+DIO11
+Wire Wire Line
+	12300 2300 12700 2300
+Text Label 12700 2300 0    40   ~ 0
+SPI2_CSN0
+Wire Wire Line
+	3000 10000 3000 9800
+Wire Wire Line
+	3000 10000 3000 10100
+Wire Wire Line
+	3000 10100 3800 10100
+Connection ~ 3000 10000
+Text Label 3800 10100 0    40   ~ 0
+SPI2_CSN0
+Wire Wire Line
+	12300 2200 12700 2200
+Text Label 12700 2200 0    40   ~ 0
+SPI2_CSN2
+Wire Wire Line
+	2900 5000 2900 4900
+Wire Wire Line
+	2900 4900 2900 4700
+Wire Wire Line
+	2900 4700 2100 4700
+Connection ~ 2900 4900
+Text Label 2100 4700 2    40   ~ 0
+SPI2_CSN2
+Wire Wire Line
+	12300 2000 12700 2000
+Text Label 12700 2000 0    40   ~ 0
+SPI1_CSN
+Wire Wire Line
+	3100 6000 3100 5800
+Wire Wire Line
+	3100 6000 3100 6100
+Wire Wire Line
+	3100 6100 4000 6100
+Connection ~ 3100 6000
+Text Label 4000 6100 0    40   ~ 0
+SPI1_CSN
+Wire Wire Line
+	12300 1900 12700 1900
+Text Label 12700 1900 0    40   ~ 0
+SPI1_SDI
+Wire Wire Line
+	3100 5000 3100 4800
+Wire Wire Line
+	3100 4800 3100 4700
+Wire Wire Line
+	3100 4700 3900 4700
+Connection ~ 3100 4800
+Text Label 3900 4700 0    40   ~ 0
+SPI1_SDI
+Wire Wire Line
+	12300 1800 12700 1800
+Text Label 12700 1800 0    40   ~ 0
+DIO12
+Wire Wire Line
+	6700 10000 6700 9800
+Wire Wire Line
+	6700 10000 6700 10100
+Wire Wire Line
+	6700 10100 7500 10100
+Connection ~ 6700 10000
+Text Label 7500 10100 0    40   ~ 0
+DIO12
+Wire Wire Line
+	12300 1700 12700 1700
+Text Label 12700 1700 0    40   ~ 0
+DIO14
+Wire Wire Line
+	6500 2000 6500 1900
+Wire Wire Line
+	6500 2000 6500 2200
+Wire Wire Line
+	6500 2200 5800 2200
+Connection ~ 6500 2000
+Text Label 5800 2200 2    40   ~ 0
+DIO14
+Wire Wire Line
+	12300 1600 12700 1600
+Text Label 12700 1600 0    40   ~ 0
+DIO16
+Wire Wire Line
+	6500 1000 6500 1100
+Wire Wire Line
+	6500 1000 6500 800 
+Wire Wire Line
+	6500 800  5800 800 
+Connection ~ 6500 1000
+Text Label 5800 800  2    40   ~ 0
+DIO16
+Wire Wire Line
+	12300 1500 12700 1500
+Text Label 12700 1500 0    40   ~ 0
+DIO18
+Wire Wire Line
+	3200 2100 3200 1900
+Wire Wire Line
+	3200 2100 3200 2200
+Wire Wire Line
+	3200 2200 3900 2200
+Connection ~ 3200 2100
+Text Label 3900 2200 0    40   ~ 0
+DIO18
+Wire Wire Line
+	10800 1600 11100 1600
+Text Label 10800 1600 2    40   ~ 0
+DIO15
+Wire Wire Line
+	6700 800  7400 800 
+Text Label 7400 800  0    40   ~ 0
+DIO15
+Wire Wire Line
+	12300 3300 12700 3300
+Text Label 12700 3300 0    40   ~ 0
+ID_CLK
+Wire Wire Line
+	6500 7900 6500 7800
+Wire Wire Line
+	6500 7900 6500 8100
+Wire Wire Line
+	6500 8100 5700 8100
+Connection ~ 6500 7900
+Text Label 5700 8100 2    40   ~ 0
+ID_CLK
+Wire Wire Line
+	12300 2100 12700 2100
+Text Label 12700 2100 0    40   ~ 0
+SPI2_SDO
+Wire Wire Line
+	3100 3100 3100 2900
+Wire Wire Line
+	3100 2900 3100 2800
+Wire Wire Line
+	3100 2800 3900 2800
+Connection ~ 3100 2900
+Text Label 3900 2800 0    40   ~ 0
+SPI2_SDO
+Wire Wire Line
+	12300 1400 12700 1400
+Text GLabel 12700 1400 2    40   BiDi ~ 0
++5V_VM
+Wire Wire Line
+	7600 7450 7800 7450
+Text GLabel 7800 7450 2    40   BiDi ~ 0
+ID_CLK_+3V3
+Wire Wire Line
+	7600 7350 7800 7350
+Text GLabel 7800 7350 2    40   BiDi ~ 0
+ID_CH0_+3V3
+Wire Wire Line
+	13600 9200 13500 9200
+Text GLabel 13500 9200 0    30   BiDi ~ 0
+VM_+3V3
+Wire Wire Line
+	7600 5350 7800 5350
+Text GLabel 7800 5350 2    40   BiDi ~ 0
+EXT0_+3V3
+Wire Wire Line
+	7600 5450 7800 5450
+Text GLabel 7800 5450 2    40   BiDi ~ 0
+EXT1_+3V3
+Wire Wire Line
+	3900 7550 4100 7550
+Text GLabel 4100 7550 2    40   BiDi ~ 0
+EXT2_+3V3
+Wire Wire Line
+	3900 7450 4100 7450
+Text GLabel 4100 7450 2    40   BiDi ~ 0
+EXT3_+3V3
+Wire Wire Line
+	11800 5000 11700 5000
+Text Label 11700 5000 2    40   ~ 0
+EXT4
+Wire Wire Line
+	3300 6900 2900 6900
+Wire Wire Line
+	2900 6900 2900 7000
+Wire Wire Line
+	2900 6900 2900 6700
+Wire Wire Line
+	2900 6700 2100 6700
+Connection ~ 2900 6900
+Text Label 2100 6700 2    40   ~ 0
+EXT4
+Wire Wire Line
+	11800 5100 11700 5100
+Text Label 11700 5100 2    40   ~ 0
+EXT5
+Wire Wire Line
+	3100 7000 3100 6800
+Wire Wire Line
+	3100 6800 3400 6800
+Wire Wire Line
+	3100 6800 3100 6700
+Wire Wire Line
+	3100 6700 3900 6700
+Connection ~ 3100 6800
+Text Label 3900 6700 0    40   ~ 0
+EXT5
+Wire Wire Line
+	4000 1550 4100 1550
+Text GLabel 4100 1550 2    40   BiDi ~ 0
+DIO17_+3V3
+Wire Wire Line
+	4000 1650 4100 1650
+Text GLabel 4100 1650 2    40   BiDi ~ 0
+DIO18_+3V3
+Wire Wire Line
+	3900 9350 4100 9350
+Text GLabel 4100 9350 2    40   BiDi ~ 0
+DIO6_+3V3
+Wire Wire Line
+	3900 9450 4100 9450
+Text GLabel 4100 9450 2    40   BiDi ~ 0
+DIO7_+3V3
+Wire Wire Line
+	3900 9550 4100 9550
+Text GLabel 4100 9550 2    40   BiDi ~ 0
+SPI2_CSN0_+3V3
+Wire Wire Line
+	3900 9250 4100 9250
+Text GLabel 4100 9250 2    40   BiDi ~ 0
+CLK16_+3V3
+Wire Wire Line
+	3950 3450 4050 3450
+Text GLabel 4050 3450 2    40   BiDi ~ 0
+SPI2_SDI_+3V3
+Wire Wire Line
+	3950 3350 4050 3350
+Text GLabel 4050 3350 2    40   BiDi ~ 0
+SPI2_SDO_+3V3
+Wire Wire Line
+	3950 3650 4050 3650
+Text GLabel 4050 3650 2    40   BiDi ~ 0
+SPI1_SDO_+3V3
+Wire Wire Line
+	7550 3450 7850 3450
+Text GLabel 7850 3450 2    40   BiDi ~ 0
+DIO4_+3V3
+Wire Wire Line
+	7550 3350 7850 3350
+Text GLabel 7850 3350 2    40   BiDi ~ 0
+DIO5_+3V3
+Wire Wire Line
+	7550 3650 7850 3650
+Text GLabel 7850 3650 2    40   BiDi ~ 0
+DIO2_+3V3
+Wire Wire Line
+	3950 5450 4150 5450
+Text GLabel 4150 5450 2    40   BiDi ~ 0
+SPI1_SCK_+3V3
+Wire Wire Line
+	3950 5550 4150 5550
+Text GLabel 4150 5550 2    40   BiDi ~ 0
+SPI1_CSN_+3V3
+Wire Wire Line
+	3950 5350 4150 5350
+Text GLabel 4150 5350 2    40   BiDi ~ 0
+SPI2_CSN2_+3V3
+Wire Wire Line
+	3950 5250 4150 5250
+Text GLabel 4150 5250 2    40   BiDi ~ 0
+SPI1_SDI_+3V3
+Wire Wire Line
+	4000 1450 4100 1450
+Text GLabel 4100 1450 2    40   BiDi ~ 0
+DIO9_+3V3
+Wire Wire Line
+	4000 1350 4100 1350
+Text GLabel 4100 1350 2    40   BiDi ~ 0
+DIO8_+3V3
+Wire Wire Line
+	7600 5550 7800 5550
+Text GLabel 7800 5550 2    40   BiDi ~ 0
+DIO10_+3V3
+Wire Wire Line
+	7600 5650 7800 5650
+Text GLabel 7800 5650 2    40   BiDi ~ 0
+DIO11_+3V3
+Wire Wire Line
+	7600 7250 7800 7250
+Text GLabel 7800 7250 2    40   BiDi ~ 0
+ID_CH1_+3V3
+Wire Wire Line
+	7600 7550 7800 7550
+Text GLabel 7800 7550 2    40   BiDi ~ 0
+SPI2_CSN1_+3V3
+Wire Wire Line
+	7550 9450 7750 9450
+Text GLabel 7750 9450 2    40   BiDi ~ 0
+DIO19_+3V3
+Wire Wire Line
+	7550 9550 7750 9550
+Text GLabel 7750 9550 2    40   BiDi ~ 0
+DIO12_+3V3
+Wire Wire Line
+	7550 9350 7750 9350
+Text GLabel 7750 9350 2    40   BiDi ~ 0
+DIO0_+3V3
+Wire Wire Line
+	7550 9250 7750 9250
+Text GLabel 7750 9250 2    40   BiDi ~ 0
+DIO1_+3V3
+Wire Wire Line
+	12400 7500 12200 7500
+Wire Wire Line
+	12200 7500 12200 7400
+$Comp
+L power:GND #GND?
+U 1 1 0C1F0895
+P 11700 5600
+AR Path="/0C1F0895" Ref="#GND?"  Part="1" 
+AR Path="/5CC9B3A4/0C1F0895" Ref="#GND0307"  Part="1" 
+F 0 "#GND0307" H 11700 5600 39  0001 C CNN
+F 1 "GND" H 11600 5500 39  0000 C CNN
+F 2 "" H 11700 5600 39  0001 C CNN
+F 3 "" H 11700 5600 39  0001 C CNN
+	1    11700 5600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 18293932
+P 12200 9650
+AR Path="/18293932" Ref="C?"  Part="1" 
+AR Path="/5CC9B3A4/18293932" Ref="C303"  Part="1" 
+F 0 "C303" V 12050 9650 39  0000 C CNN
+F 1 "1nF/10%/1V/0603" V 12350 9650 39  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 12200 9650 39  0001 C CNN
+F 3 "" H 12200 9650 39  0001 C CNN
+	1    12200 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND?
+U 1 1 003ACE57
+P 12200 9900
+AR Path="/003ACE57" Ref="#GND?"  Part="1" 
+AR Path="/5CC9B3A4/003ACE57" Ref="#GND0319"  Part="1" 
+F 0 "#GND0319" H 12200 9900 39  0001 C CNN
+F 1 "GND" H 12100 9800 39  0000 C CNN
+F 2 "" H 12200 9900 39  0001 C CNN
+F 3 "" H 12200 9900 39  0001 C CNN
+	1    12200 9900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND?
+U 1 1 660B32C3
+P 11800 9900
+AR Path="/660B32C3" Ref="#GND?"  Part="1" 
+AR Path="/5CC9B3A4/660B32C3" Ref="#GND0318"  Part="1" 
+F 0 "#GND0318" H 11800 9900 39  0001 C CNN
+F 1 "GND" H 11700 9800 39  0000 C CNN
+F 2 "" H 11800 9900 39  0001 C CNN
+F 3 "" H 11800 9900 39  0001 C CNN
+	1    11800 9900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 93B8B689
+P 11800 9650
+AR Path="/93B8B689" Ref="C?"  Part="1" 
+AR Path="/5CC9B3A4/93B8B689" Ref="C302"  Part="1" 
+F 0 "C302" V 11650 9650 39  0000 C CNN
+F 1 "1nF/10%/1V/0603" V 11950 9650 39  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11800 9650 39  0001 C CNN
+F 3 "" H 11800 9650 39  0001 C CNN
+	1    11800 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND?
+U 1 1 7C5BA6D8
+P 11400 9900
+AR Path="/7C5BA6D8" Ref="#GND?"  Part="1" 
+AR Path="/5CC9B3A4/7C5BA6D8" Ref="#GND0317"  Part="1" 
+F 0 "#GND0317" H 11400 9900 39  0001 C CNN
+F 1 "GND" H 11300 9800 39  0000 C CNN
+F 2 "" H 11400 9900 39  0001 C CNN
+F 3 "" H 11400 9900 39  0001 C CNN
+	1    11400 9900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND?
+U 1 1 B8924062
+P 11000 9900
+AR Path="/B8924062" Ref="#GND?"  Part="1" 
+AR Path="/5CC9B3A4/B8924062" Ref="#GND0316"  Part="1" 
+F 0 "#GND0316" H 11000 9900 39  0001 C CNN
+F 1 "GND" H 10900 9800 39  0000 C CNN
+F 2 "" H 11000 9900 39  0001 C CNN
+F 3 "" H 11000 9900 39  0001 C CNN
+	1    11000 9900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND?
+U 1 1 861FFD58
+P 10700 9900
+AR Path="/861FFD58" Ref="#GND?"  Part="1" 
+AR Path="/5CC9B3A4/861FFD58" Ref="#GND0315"  Part="1" 
+F 0 "#GND0315" H 10700 9900 39  0001 C CNN
+F 1 "GND" H 10600 9800 39  0000 C CNN
+F 2 "" H 10700 9900 39  0001 C CNN
+F 3 "" H 10700 9900 39  0001 C CNN
+	1    10700 9900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND?
+U 1 1 AE83BEC3
+P 10400 9900
+AR Path="/AE83BEC3" Ref="#GND?"  Part="1" 
+AR Path="/5CC9B3A4/AE83BEC3" Ref="#GND0314"  Part="1" 
+F 0 "#GND0314" H 10400 9900 39  0001 C CNN
+F 1 "GND" H 10300 9800 39  0000 C CNN
+F 2 "" H 10400 9900 39  0001 C CNN
+F 3 "" H 10400 9900 39  0001 C CNN
+	1    10400 9900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5931E764
+P 10400 8700
+AR Path="/5931E764" Ref="R?"  Part="1" 
+AR Path="/5CC9B3A4/5931E764" Ref="R301"  Part="1" 
+F 0 "R301" V 10300 8700 39  0000 C CNN
+F 1 "3,9kΩ/1%/0603" V 10500 8700 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 10400 8700 39  0001 C CNN
+F 3 "" H 10400 8700 39  0001 C CNN
+	1    10400 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 1685C01D
+P 10400 9650
+AR Path="/1685C01D" Ref="R?"  Part="1" 
+AR Path="/5CC9B3A4/1685C01D" Ref="R304"  Part="1" 
+F 0 "R304" V 10300 9650 39  0000 C CNN
+F 1 "7,5kΩ/1%/0603" V 10500 9650 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 10400 9650 39  0001 C CNN
+F 3 "" H 10400 9650 39  0001 C CNN
+	1    10400 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 29454632
+P 10700 9650
+AR Path="/29454632" Ref="R?"  Part="1" 
+AR Path="/5CC9B3A4/29454632" Ref="R305"  Part="1" 
+F 0 "R305" V 10600 9650 39  0000 C CNN
+F 1 "7,5kΩ/1%/0603" V 10800 9650 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 10700 9650 39  0001 C CNN
+F 3 "" H 10700 9650 39  0001 C CNN
+	1    10700 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 883DFCC5
+P 11000 9650
+AR Path="/883DFCC5" Ref="R?"  Part="1" 
+AR Path="/5CC9B3A4/883DFCC5" Ref="R306"  Part="1" 
+F 0 "R306" V 10900 9650 39  0000 C CNN
+F 1 "7,5kΩ/1%/0603" V 11100 9650 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 11000 9650 39  0001 C CNN
+F 3 "" H 11000 9650 39  0001 C CNN
+	1    11000 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 AD5D0D2A
+P 10700 8700
+AR Path="/AD5D0D2A" Ref="R?"  Part="1" 
+AR Path="/5CC9B3A4/AD5D0D2A" Ref="R302"  Part="1" 
+F 0 "R302" V 10600 8700 39  0000 C CNN
+F 1 "3,9kΩ/1%/0603" V 10800 8700 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 10700 8700 39  0001 C CNN
+F 3 "" H 10700 8700 39  0001 C CNN
+	1    10700 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 C7B2543B
+P 11000 8700
+AR Path="/C7B2543B" Ref="R?"  Part="1" 
+AR Path="/5CC9B3A4/C7B2543B" Ref="R303"  Part="1" 
+F 0 "R303" V 10900 8700 39  0000 C CNN
+F 1 "3,9kΩ/1%/0603" V 11100 8700 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 11000 8700 39  0001 C CNN
+F 3 "" H 11000 8700 39  0001 C CNN
+	1    11000 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SAMTEC-HLE-122-02-X-DV:SAMTEC-HLE-122-02-X-DV_TMC-mod INTERFACE?
+U 1 1 D6DFB0B5
+P 11700 2350
+AR Path="/D6DFB0B5" Ref="INTERFACE?"  Part="1" 
+AR Path="/5CC9B3A4/D6DFB0B5" Ref="INTERFACE301"  Part="1" 
+F 0 "INTERFACE301" H 11700 1150 39  0000 C CNN
+F 1 "FEMALE_HEADER_SMD_2.54_44_PINSHORTPADS_HOLES" H 11700 3600 39  0000 C CNN
+F 2 "Connector_Samtec_HLE_SMD:Samtec_HLE-122-02-xxx-DV-BE-A_2x22_P2.54mm_Horizontal" H 11700 2350 39  0001 C CNN
+F 3 "" H 11700 2350 39  0001 C CNN
+	1    11700 2350
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #GND?
+U 1 1 85B66688
+P 13200 3800
+AR Path="/85B66688" Ref="#GND?"  Part="1" 
+AR Path="/5CC9B3A4/85B66688" Ref="#GND0304"  Part="1" 
+F 0 "#GND0304" H 13200 3800 39  0001 C CNN
+F 1 "GND" H 13100 3700 39  0000 C CNN
+F 2 "" H 13200 3800 39  0001 C CNN
+F 3 "" H 13200 3800 39  0001 C CNN
+	1    13200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND?
+U 1 1 7499CEA7
+P 10200 3800
+AR Path="/7499CEA7" Ref="#GND?"  Part="1" 
+AR Path="/5CC9B3A4/7499CEA7" Ref="#GND0303"  Part="1" 
+F 0 "#GND0303" H 10200 3800 39  0001 C CNN
+F 1 "GND" H 10100 3700 39  0000 C CNN
+F 2 "" H 10200 3800 39  0001 C CNN
+F 3 "" H 10200 3800 39  0001 C CNN
+	1    10200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Landungsbrücke_v20-rescue:SRV05-4-Landungsbrücke_v20-eagle-import SUPP?
+U 1 1 D7BD25D8
+P 14000 9100
+AR Path="/D7BD25D8" Ref="SUPP?"  Part="1" 
+AR Path="/5CC9B3A4/D7BD25D8" Ref="SUPP310"  Part="1" 
+F 0 "SUPP310" H 14010 9480 42  0000 C CNN
+F 1 "SRV05-4" H 14010 9380 42  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 14000 9100 39  0001 C CNN
+F 3 "" H 14000 9100 39  0001 C CNN
+	1    14000 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #GND?
+U 1 1 B0E7A0AF
+P 13000 9400
+AR Path="/B0E7A0AF" Ref="#GND?"  Part="1" 
+AR Path="/5CC9B3A4/B0E7A0AF" Ref="#GND0313"  Part="1" 
+F 0 "#GND0313" H 13000 9400 39  0001 C CNN
+F 1 "GND" H 12900 9300 39  0000 C CNN
+F 2 "" H 13000 9400 39  0001 C CNN
+F 3 "" H 13000 9400 39  0001 C CNN
+	1    13000 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Landungsbrücke_v20-rescue:SRV05-4-Landungsbrücke_v20-eagle-import SUPP?
+U 1 1 CFFDB661
+P 3100 1500
+AR Path="/CFFDB661" Ref="SUPP?"  Part="1" 
+AR Path="/5CC9B3A4/CFFDB661" Ref="SUPP301"  Part="1" 
+F 0 "SUPP301" H 3110 1880 42  0000 C CNN
+F 1 "SRV05-4" H 3110 1780 42  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3100 1500 39  0001 C CNN
+F 3 "" H 3100 1500 39  0001 C CNN
+	1    3100 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #GND?
+U 1 1 6E6B0654
+P 3100 2200
+AR Path="/6E6B0654" Ref="#GND?"  Part="1" 
+AR Path="/5CC9B3A4/6E6B0654" Ref="#GND0301"  Part="1" 
+F 0 "#GND0301" H 3100 2200 39  0001 C CNN
+F 1 "GND" H 3000 2100 39  0000 C CNN
+F 2 "" H 3100 2200 39  0001 C CNN
+F 3 "" H 3100 2200 39  0001 C CNN
+	1    3100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Landungsbrücke_v20-rescue:SRV05-4-Landungsbrücke_v20-eagle-import SUPP?
+U 1 1 19BA1065
+P 6600 1500
+AR Path="/19BA1065" Ref="SUPP?"  Part="1" 
+AR Path="/5CC9B3A4/19BA1065" Ref="SUPP302"  Part="1" 
+F 0 "SUPP302" H 6610 1880 42  0000 C CNN
+F 1 "SRV05-4" H 6610 1780 42  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 6600 1500 39  0001 C CNN
+F 3 "" H 6600 1500 39  0001 C CNN
+	1    6600 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #GND?
+U 1 1 E3D3C258
+P 6600 2200
+AR Path="/E3D3C258" Ref="#GND?"  Part="1" 
+AR Path="/5CC9B3A4/E3D3C258" Ref="#GND0302"  Part="1" 
+F 0 "#GND0302" H 6600 2200 39  0001 C CNN
+F 1 "GND" H 6500 2100 39  0000 C CNN
+F 2 "" H 6600 2200 39  0001 C CNN
+F 3 "" H 6600 2200 39  0001 C CNN
+	1    6600 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Landungsbrücke_v20-rescue:SRV05-4-Landungsbrücke_v20-eagle-import SUPP?
+U 1 1 07E008A9
+P 3000 3500
+AR Path="/07E008A9" Ref="SUPP?"  Part="1" 
+AR Path="/5CC9B3A4/07E008A9" Ref="SUPP303"  Part="1" 
+F 0 "SUPP303" H 3010 3880 42  0000 C CNN
+F 1 "SRV05-4" H 3010 3780 42  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3000 3500 39  0001 C CNN
+F 3 "" H 3000 3500 39  0001 C CNN
+	1    3000 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #GND?
+U 1 1 E30E6F28
+P 3000 4200
+AR Path="/E30E6F28" Ref="#GND?"  Part="1" 
+AR Path="/5CC9B3A4/E30E6F28" Ref="#GND0305"  Part="1" 
+F 0 "#GND0305" H 3000 4200 39  0001 C CNN
+F 1 "GND" H 2900 4100 39  0000 C CNN
+F 2 "" H 3000 4200 39  0001 C CNN
+F 3 "" H 3000 4200 39  0001 C CNN
+	1    3000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Landungsbrücke_v20-rescue:SRV05-4-Landungsbrücke_v20-eagle-import SUPP?
+U 1 1 3F58D015
+P 6600 3500
+AR Path="/3F58D015" Ref="SUPP?"  Part="1" 
+AR Path="/5CC9B3A4/3F58D015" Ref="SUPP304"  Part="1" 
+F 0 "SUPP304" H 6610 3880 42  0000 C CNN
+F 1 "SRV05-4" H 6610 3780 42  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 6600 3500 39  0001 C CNN
+F 3 "" H 6600 3500 39  0001 C CNN
+	1    6600 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Landungsbrücke_v20-rescue:SRV05-4-Landungsbrücke_v20-eagle-import SUPP?
+U 1 1 49FCA915
+P 3000 5400
+AR Path="/49FCA915" Ref="SUPP?"  Part="1" 
+AR Path="/5CC9B3A4/49FCA915" Ref="SUPP305"  Part="1" 
+F 0 "SUPP305" H 3010 5780 42  0000 C CNN
+F 1 "SRV05-4" H 3010 5680 42  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3000 5400 39  0001 C CNN
+F 3 "" H 3000 5400 39  0001 C CNN
+	1    3000 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #GND?
+U 1 1 B66ACBFF
+P 3000 6100
+AR Path="/B66ACBFF" Ref="#GND?"  Part="1" 
+AR Path="/5CC9B3A4/B66ACBFF" Ref="#GND0308"  Part="1" 
+F 0 "#GND0308" H 3000 6100 39  0001 C CNN
+F 1 "GND" H 2900 6000 39  0000 C CNN
+F 2 "" H 3000 6100 39  0001 C CNN
+F 3 "" H 3000 6100 39  0001 C CNN
+	1    3000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Landungsbrücke_v20-rescue:SRV05-4-Landungsbrücke_v20-eagle-import SUPP?
+U 1 1 B979E540
+P 6600 5500
+AR Path="/B979E540" Ref="SUPP?"  Part="1" 
+AR Path="/5CC9B3A4/B979E540" Ref="SUPP306"  Part="1" 
+F 0 "SUPP306" H 6610 5880 42  0000 C CNN
+F 1 "SRV05-4" H 6610 5780 42  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 6600 5500 39  0001 C CNN
+F 3 "" H 6600 5500 39  0001 C CNN
+	1    6600 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #GND?
+U 1 1 AE8CA2CE
+P 6600 6250
+AR Path="/AE8CA2CE" Ref="#GND?"  Part="1" 
+AR Path="/5CC9B3A4/AE8CA2CE" Ref="#GND0309"  Part="1" 
+F 0 "#GND0309" H 6600 6250 39  0001 C CNN
+F 1 "GND" H 6500 6150 39  0000 C CNN
+F 2 "" H 6600 6250 39  0001 C CNN
+F 3 "" H 6600 6250 39  0001 C CNN
+	1    6600 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Landungsbrücke_v20-rescue:SRV05-4-Landungsbrücke_v20-eagle-import SUPP?
+U 1 1 4783F0E5
+P 3000 7400
+AR Path="/4783F0E5" Ref="SUPP?"  Part="1" 
+AR Path="/5CC9B3A4/4783F0E5" Ref="SUPP308"  Part="1" 
+F 0 "SUPP308" H 3000 7750 42  0000 C CNN
+F 1 "SRV05-4" H 3000 7650 42  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 3000 7400 39  0001 C CNN
+F 3 "" H 3000 7400 39  0001 C CNN
+	1    3000 7400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #GND?
+U 1 1 FC805D82
+P 3000 8100
+AR Path="/FC805D82" Ref="#GND?"  Part="1" 
+AR Path="/5CC9B3A4/FC805D82" Ref="#GND0311"  Part="1" 
+F 0 "#GND0311" H 3000 8100 39  0001 C CNN
+F 1 "GND" H 2900 8000 39  0000 C CNN
+F 2 "" H 3000 8100 39  0001 C CNN
+F 3 "" H 3000 8100 39  0001 C CNN
+	1    3000 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 C874C1E4
+P 3700 7350
+AR Path="/C874C1E4" Ref="RN?"  Part="1" 
+AR Path="/5CC9B3A4/C874C1E4" Ref="RN308"  Part="1" 
+F 0 "RN308" V 3900 7350 39  0000 C CNN
+F 1 "100Ω" V 3400 7350 39  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" H 3700 7350 39  0001 C CNN
+F 3 "" H 3700 7350 39  0001 C CNN
+	1    3700 7350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Landungsbrücke_v20-rescue:SRV05-4-Landungsbrücke_v20-eagle-import SUPP?
+U 1 1 983E1626
+P 6600 7400
+AR Path="/983E1626" Ref="SUPP?"  Part="1" 
+AR Path="/5CC9B3A4/983E1626" Ref="SUPP309"  Part="1" 
+F 0 "SUPP309" H 6610 7780 42  0000 C CNN
+F 1 "SRV05-4" H 6610 7680 42  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 6600 7400 39  0001 C CNN
+F 3 "" H 6600 7400 39  0001 C CNN
+	1    6600 7400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #GND?
+U 1 1 C5D7984F
+P 6600 8100
+AR Path="/C5D7984F" Ref="#GND?"  Part="1" 
+AR Path="/5CC9B3A4/C5D7984F" Ref="#GND0312"  Part="1" 
+F 0 "#GND0312" H 6600 8100 39  0001 C CNN
+F 1 "GND" H 6500 8000 39  0000 C CNN
+F 2 "" H 6600 8100 39  0001 C CNN
+F 3 "" H 6600 8100 39  0001 C CNN
+	1    6600 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Landungsbrücke_v20-rescue:SRV05-4-Landungsbrücke_v20-eagle-import SUPP?
+U 1 1 AB3C8A60
+P 2900 9400
+AR Path="/AB3C8A60" Ref="SUPP?"  Part="1" 
+AR Path="/5CC9B3A4/AB3C8A60" Ref="SUPP311"  Part="1" 
+F 0 "SUPP311" H 2910 9780 42  0000 C CNN
+F 1 "SRV05-4" H 2910 9680 42  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 2900 9400 39  0001 C CNN
+F 3 "" H 2900 9400 39  0001 C CNN
+	1    2900 9400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #GND?
+U 1 1 1FBC4899
+P 2900 10100
+AR Path="/1FBC4899" Ref="#GND?"  Part="1" 
+AR Path="/5CC9B3A4/1FBC4899" Ref="#GND0320"  Part="1" 
+F 0 "#GND0320" H 2900 10100 39  0001 C CNN
+F 1 "GND" H 2800 10000 39  0000 C CNN
+F 2 "" H 2900 10100 39  0001 C CNN
+F 3 "" H 2900 10100 39  0001 C CNN
+	1    2900 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Landungsbrücke_v20-rescue:SRV05-4-Landungsbrücke_v20-eagle-import SUPP?
+U 1 1 FF09E071
+P 6600 9400
+AR Path="/FF09E071" Ref="SUPP?"  Part="1" 
+AR Path="/5CC9B3A4/FF09E071" Ref="SUPP312"  Part="1" 
+F 0 "SUPP312" H 6610 9780 42  0000 C CNN
+F 1 "SRV05-4" H 6610 9680 42  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 6600 9400 39  0001 C CNN
+F 3 "" H 6600 9400 39  0001 C CNN
+	1    6600 9400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #GND?
+U 1 1 9A9B7EC6
+P 6600 10100
+AR Path="/9A9B7EC6" Ref="#GND?"  Part="1" 
+AR Path="/5CC9B3A4/9A9B7EC6" Ref="#GND0321"  Part="1" 
+F 0 "#GND0321" H 6600 10100 39  0001 C CNN
+F 1 "GND" H 6500 10000 39  0000 C CNN
+F 2 "" H 6600 10100 39  0001 C CNN
+F 3 "" H 6600 10100 39  0001 C CNN
+	1    6600 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x08_Female CON_EXT?
+U 1 1 A41D42F0
+P 12000 4800
+AR Path="/A41D42F0" Ref="CON_EXT?"  Part="1" 
+AR Path="/5CC9B3A4/A41D42F0" Ref="CON_EXT301"  Part="1" 
+F 0 "CON_EXT301" H 12000 5250 39  0000 C CNN
+F 1 "PinSocket_1x08_P2.54mm_Vertical_SMD_Pin1Right" H 12000 4300 39  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical_SMD_Pin1Right" H 12000 4800 39  0001 C CNN
+F 3 "" H 12000 4800 39  0001 C CNN
+F 4 "Not assembled" H 12000 4800 50  0001 C CNN "Info"
+	1    12000 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Landungsbrücke_v20-rescue:SRV05-4-Landungsbrücke_v20-eagle-import SUPP?
+U 1 1 36108ED9
+P 12100 7000
+AR Path="/36108ED9" Ref="SUPP?"  Part="1" 
+AR Path="/5CC9B3A4/36108ED9" Ref="SUPP307"  Part="1" 
+F 0 "SUPP307" H 12110 7380 42  0000 C CNN
+F 1 "Not assembled" H 12110 7280 42  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 12100 7000 39  0001 C CNN
+F 3 "" H 12100 7000 39  0001 C CNN
+	1    12100 7000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #GND?
+U 1 1 2C04BC43
+P 12100 7700
+AR Path="/2C04BC43" Ref="#GND?"  Part="1" 
+AR Path="/5CC9B3A4/2C04BC43" Ref="#GND0310"  Part="1" 
+F 0 "#GND0310" H 12100 7700 39  0001 C CNN
+F 1 "GND" H 12000 7600 39  0000 C CNN
+F 2 "" H 12100 7700 39  0001 C CNN
+F 3 "" H 12100 7700 39  0001 C CNN
+	1    12100 7700
+	1    0    0    -1  
+$EndComp
+Text Notes 12300 8900 0    39   ~ 0
+-3dB @ 40809kHz\nFullscale @ 5,016V
+Wire Wire Line
+	3400 6800 3400 7250
+Wire Wire Line
+	3400 7250 3500 7250
+Wire Wire Line
+	3900 7250 4100 7250
+Text GLabel 4100 7250 2    40   BiDi ~ 0
+EXT5_+3V3
+Wire Wire Line
+	3900 7350 4100 7350
+Text GLabel 4100 7350 2    40   BiDi ~ 0
+EXT4_+3V3
+Wire Wire Line
+	3300 6900 3300 7350
+Wire Wire Line
+	3300 7350 3500 7350
+Wire Wire Line
+	3400 8000 3400 7550
+Wire Wire Line
+	3400 7550 3500 7550
+Wire Wire Line
+	3100 8000 3400 8000
+Wire Wire Line
+	3500 7450 3300 7450
+Wire Wire Line
+	3300 7450 3300 7900
+Connection ~ 13200 3400
+Connection ~ 10200 3300
+Wire Wire Line
+	12000 7700 11200 7700
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5DB3F5AC
+P 3700 9350
+AR Path="/5DB3F5AC" Ref="RN?"  Part="1" 
+AR Path="/5CC9B3A4/5DB3F5AC" Ref="RN310"  Part="1" 
+F 0 "RN310" V 3900 9350 39  0000 C CNN
+F 1 "100Ω" V 3400 9350 39  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" H 3700 9350 39  0001 C CNN
+F 3 "" H 3700 9350 39  0001 C CNN
+	1    3700 9350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5DB4120E
+P 3750 5350
+AR Path="/5DB4120E" Ref="RN?"  Part="1" 
+AR Path="/5CC9B3A4/5DB4120E" Ref="RN305"  Part="1" 
+F 0 "RN305" V 3950 5350 39  0000 C CNN
+F 1 "100Ω" V 3450 5350 39  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" H 3750 5350 39  0001 C CNN
+F 3 "" H 3750 5350 39  0001 C CNN
+	1    3750 5350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5DB42151
+P 3750 3450
+AR Path="/5DB42151" Ref="RN?"  Part="1" 
+AR Path="/5CC9B3A4/5DB42151" Ref="RN303"  Part="1" 
+F 0 "RN303" V 3950 3450 39  0000 C CNN
+F 1 "100Ω" V 3450 3450 39  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" H 3750 3450 39  0001 C CNN
+F 3 "" H 3750 3450 39  0001 C CNN
+	1    3750 3450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5DB42998
+P 3800 1450
+AR Path="/5DB42998" Ref="RN?"  Part="1" 
+AR Path="/5CC9B3A4/5DB42998" Ref="RN301"  Part="1" 
+F 0 "RN301" V 4000 1450 39  0000 C CNN
+F 1 "100Ω" V 3500 1450 39  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" H 3800 1450 39  0001 C CNN
+F 3 "" H 3800 1450 39  0001 C CNN
+	1    3800 1450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5DB4304D
+P 7350 1450
+AR Path="/5DB4304D" Ref="RN?"  Part="1" 
+AR Path="/5CC9B3A4/5DB4304D" Ref="RN302"  Part="1" 
+F 0 "RN302" V 7550 1450 39  0000 C CNN
+F 1 "100Ω" V 7050 1450 39  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" H 7350 1450 39  0001 C CNN
+F 3 "" H 7350 1450 39  0001 C CNN
+	1    7350 1450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5DB43AD3
+P 7350 3450
+AR Path="/5DB43AD3" Ref="RN?"  Part="1" 
+AR Path="/5CC9B3A4/5DB43AD3" Ref="RN304"  Part="1" 
+F 0 "RN304" V 7550 3450 39  0000 C CNN
+F 1 "100Ω" V 7050 3450 39  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" H 7350 3450 39  0001 C CNN
+F 3 "" H 7350 3450 39  0001 C CNN
+	1    7350 3450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5DB442E1
+P 7400 5450
+AR Path="/5DB442E1" Ref="RN?"  Part="1" 
+AR Path="/5CC9B3A4/5DB442E1" Ref="RN306"  Part="1" 
+F 0 "RN306" V 7600 5450 39  0000 C CNN
+F 1 "100Ω" V 7100 5450 39  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" H 7400 5450 39  0001 C CNN
+F 3 "" H 7400 5450 39  0001 C CNN
+	1    7400 5450
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5DB4519D
+P 7400 7350
+AR Path="/5DB4519D" Ref="RN?"  Part="1" 
+AR Path="/5CC9B3A4/5DB4519D" Ref="RN309"  Part="1" 
+F 0 "RN309" V 7600 7350 39  0000 C CNN
+F 1 "100Ω" V 7100 7350 39  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" H 7400 7350 39  0001 C CNN
+F 3 "" H 7400 7350 39  0001 C CNN
+	1    7400 7350
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5DB4595E
+P 7350 9350
+AR Path="/5DB4595E" Ref="RN?"  Part="1" 
+AR Path="/5CC9B3A4/5DB4595E" Ref="RN311"  Part="1" 
+F 0 "RN311" V 7550 9350 39  0000 C CNN
+F 1 "100Ω" V 7050 9350 39  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" H 7350 9350 39  0001 C CNN
+F 3 "" H 7350 9350 39  0001 C CNN
+	1    7350 9350
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	3500 900  3500 1350
+Wire Wire Line
+	3500 1350 3600 1350
+Wire Wire Line
+	3200 900  3500 900 
+Wire Wire Line
+	3000 1000 3400 1000
+Wire Wire Line
+	3400 1000 3400 1450
+Wire Wire Line
+	3400 1450 3600 1450
+Wire Wire Line
+	3500 2100 3500 1650
+Wire Wire Line
+	3500 1650 3600 1650
+Wire Wire Line
+	3200 2100 3500 2100
+Wire Wire Line
+	3000 2000 3400 2000
+Wire Wire Line
+	3400 2000 3400 1550
+Wire Wire Line
+	3400 1550 3600 1550
+Wire Wire Line
+	3450 2900 3450 3350
+Wire Wire Line
+	3450 3350 3550 3350
+Wire Wire Line
+	3100 2900 3450 2900
+Wire Wire Line
+	2900 3000 3350 3000
+Wire Wire Line
+	3350 3000 3350 3450
+Wire Wire Line
+	3350 3450 3550 3450
+Wire Wire Line
+	3450 4100 3450 3650
+Wire Wire Line
+	3450 3650 3550 3650
+Wire Wire Line
+	3100 4100 3450 4100
+Wire Wire Line
+	2900 4000 3350 4000
+Wire Wire Line
+	3350 4000 3350 3550
+Wire Wire Line
+	3350 3550 3550 3550
+Text GLabel 4050 3550 2    40   BiDi ~ 0
+SPI2_SCK_+3V3
+Wire Wire Line
+	3950 3550 4050 3550
+Wire Wire Line
+	3450 4800 3450 5250
+Wire Wire Line
+	3450 5250 3550 5250
+Wire Wire Line
+	3100 4800 3450 4800
+Wire Wire Line
+	2900 4900 3350 4900
+Wire Wire Line
+	3350 4900 3350 5350
+Wire Wire Line
+	3350 5350 3550 5350
+Wire Wire Line
+	3450 6000 3450 5550
+Wire Wire Line
+	3450 5550 3550 5550
+Wire Wire Line
+	3100 6000 3450 6000
+Wire Wire Line
+	2900 5900 3350 5900
+Wire Wire Line
+	3350 5900 3350 5450
+Wire Wire Line
+	3350 5450 3550 5450
+Wire Wire Line
+	3400 8800 3400 9250
+Wire Wire Line
+	3400 9250 3500 9250
+Wire Wire Line
+	3000 8800 3400 8800
+Wire Wire Line
+	3300 8900 3300 9350
+Wire Wire Line
+	3300 9350 3500 9350
+Wire Wire Line
+	2800 8900 3300 8900
+Wire Wire Line
+	3400 10000 3400 9550
+Wire Wire Line
+	3400 9550 3500 9550
+Wire Wire Line
+	3000 10000 3400 10000
+Wire Wire Line
+	2800 9900 3300 9900
+Wire Wire Line
+	3300 9900 3300 9450
+Wire Wire Line
+	3300 9450 3500 9450
+Wire Wire Line
+	7050 8800 7050 9250
+Wire Wire Line
+	7050 9250 7150 9250
+Wire Wire Line
+	6700 8800 7050 8800
+Wire Wire Line
+	6500 8900 6950 8900
+Wire Wire Line
+	6950 8900 6950 9350
+Wire Wire Line
+	6950 9350 7150 9350
+Wire Wire Line
+	7050 10000 7050 9550
+Wire Wire Line
+	7050 9550 7150 9550
+Wire Wire Line
+	6700 10000 7050 10000
+Wire Wire Line
+	6500 9900 6950 9900
+Wire Wire Line
+	6950 9900 6950 9450
+Wire Wire Line
+	6950 9450 7150 9450
+Wire Wire Line
+	7100 6800 7100 7250
+Wire Wire Line
+	7100 7250 7200 7250
+Wire Wire Line
+	6700 6800 7100 6800
+Wire Wire Line
+	6500 6900 7000 6900
+Wire Wire Line
+	7000 6900 7000 7350
+Wire Wire Line
+	7000 7350 7200 7350
+Wire Wire Line
+	7100 8000 7100 7550
+Wire Wire Line
+	7100 7550 7200 7550
+Wire Wire Line
+	6700 8000 7100 8000
+Wire Wire Line
+	6500 7900 7000 7900
+Wire Wire Line
+	7000 7900 7000 7450
+Wire Wire Line
+	7000 7450 7200 7450
+Wire Wire Line
+	7100 4900 7100 5350
+Wire Wire Line
+	7100 5350 7200 5350
+Wire Wire Line
+	6700 4900 7100 4900
+Wire Wire Line
+	6500 5000 7000 5000
+Wire Wire Line
+	7000 5000 7000 5450
+Wire Wire Line
+	7000 5450 7200 5450
+Wire Wire Line
+	7100 6100 7100 5650
+Wire Wire Line
+	7100 5650 7200 5650
+Wire Wire Line
+	6700 6100 7100 6100
+Wire Wire Line
+	6600 5900 6600 6250
+Wire Wire Line
+	6500 6000 7000 6000
+Wire Wire Line
+	7000 6000 7000 5550
+Wire Wire Line
+	7000 5550 7200 5550
+Wire Wire Line
+	7050 2900 7050 3350
+Wire Wire Line
+	7050 3350 7150 3350
+Wire Wire Line
+	6700 2900 7050 2900
+Wire Wire Line
+	6500 3000 6950 3000
+Wire Wire Line
+	6950 3000 6950 3450
+Wire Wire Line
+	6950 3450 7150 3450
+Wire Wire Line
+	7150 3650 7050 3650
+$Comp
+L power:GND #GND?
+U 1 1 ACBC2CBC
+P 6600 4200
+AR Path="/ACBC2CBC" Ref="#GND?"  Part="1" 
+AR Path="/5CC9B3A4/ACBC2CBC" Ref="#GND0306"  Part="1" 
+F 0 "#GND0306" H 6600 4200 39  0001 C CNN
+F 1 "GND" H 6500 4100 39  0000 C CNN
+F 2 "" H 6600 4200 39  0001 C CNN
+F 3 "" H 6600 4200 39  0001 C CNN
+	1    6600 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4100 7050 4100
+Wire Wire Line
+	6700 4100 6700 3900
+Wire Wire Line
+	6700 4100 6700 4200
+Connection ~ 6700 4100
+Wire Wire Line
+	7050 3650 7050 4100
+Wire Wire Line
+	6500 4000 6950 4000
+Wire Wire Line
+	6950 4000 6950 3550
+Wire Wire Line
+	6950 3550 7150 3550
+Wire Wire Line
+	7550 3550 7850 3550
+Text GLabel 7850 3550 2    40   BiDi ~ 0
+DIO3_+3V3
+Wire Wire Line
+	7550 1350 7650 1350
+Text GLabel 7650 1350 2    40   BiDi ~ 0
+DIO15_+3V3
+Wire Wire Line
+	7050 1350 7150 1350
+Wire Wire Line
+	6700 900  7050 900 
+Wire Wire Line
+	6700 1100 6700 900 
+Wire Wire Line
+	6700 900  6700 800 
+Connection ~ 6700 900 
+Wire Wire Line
+	7050 900  7050 1350
+Wire Wire Line
+	6500 1000 6950 1000
+Wire Wire Line
+	6950 1000 6950 1450
+Wire Wire Line
+	6950 1450 7150 1450
+Wire Wire Line
+	7550 1450 7650 1450
+Text GLabel 7650 1450 2    40   BiDi ~ 0
+DIO16_+3V3
+Wire Wire Line
+	7550 1650 7650 1650
+Text GLabel 7650 1650 2    40   BiDi ~ 0
+DIO13_+3V3
+Wire Wire Line
+	7050 1650 7150 1650
+Wire Wire Line
+	6700 2100 7050 2100
+Wire Wire Line
+	6700 2100 6700 1900
+Wire Wire Line
+	6700 2100 6700 2200
+Connection ~ 6700 2100
+Wire Wire Line
+	7050 2100 7050 1650
+Wire Wire Line
+	6500 2000 6950 2000
+Wire Wire Line
+	6950 2000 6950 1550
+Wire Wire Line
+	6950 1550 7150 1550
+Wire Wire Line
+	7550 1550 7650 1550
+Text GLabel 7650 1550 2    40   BiDi ~ 0
+DIO14_+3V3
+$Comp
+L Device:R_Pack04 RN?
+U 1 1 5DB46002
+P 12800 6950
+AR Path="/5DB46002" Ref="RN?"  Part="1" 
+AR Path="/5CC9B3A4/5DB46002" Ref="RN307"  Part="1" 
+F 0 "RN307" V 13000 6950 39  0000 C CNN
+F 1 "100Ω" V 12500 6950 39  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Concave_4x0603" H 12800 6950 39  0001 C CNN
+F 3 "" H 12800 6950 39  0001 C CNN
+F 4 "Not assembled" V 12450 6950 24  0000 C CNN "Info"
+	1    12800 6950
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	13000 6950 13200 6950
+Text GLabel 13200 6950 2    40   BiDi ~ 0
+MIXED4
+Wire Wire Line
+	12400 6500 12400 6950
+Wire Wire Line
+	12400 6950 12600 6950
+Wire Wire Line
+	12000 6400 12500 6400
+Wire Wire Line
+	12500 6400 12500 6850
+Wire Wire Line
+	12500 6850 12600 6850
+Wire Wire Line
+	12000 6400 12000 6300
+Connection ~ 12000 6400
+Wire Wire Line
+	12000 6400 12000 6600
+Wire Wire Line
+	13000 6850 13200 6850
+Text GLabel 13200 6850 2    40   BiDi ~ 0
+MIXED5
+Wire Wire Line
+	13000 7050 13200 7050
+Text GLabel 13200 7050 2    40   BiDi ~ 0
+MIXED0
+Wire Wire Line
+	12400 7500 12400 7050
+Wire Wire Line
+	12400 7050 12600 7050
+Wire Wire Line
+	12000 7600 12500 7600
+Wire Wire Line
+	12500 7600 12500 7150
+Wire Wire Line
+	12500 7150 12600 7150
+Wire Wire Line
+	12000 7700 12000 7600
+Connection ~ 12000 7600
+Wire Wire Line
+	13000 7150 13200 7150
+Text GLabel 13200 7150 2    30   BiDi ~ 0
+MIXED1
+Wire Wire Line
+	12000 7400 12000 7600
+$Comp
+L Device:C C?
+U 1 1 38CA09D7
+P 11400 9650
+AR Path="/38CA09D7" Ref="C?"  Part="1" 
+AR Path="/5CC9B3A4/38CA09D7" Ref="C301"  Part="1" 
+F 0 "C301" V 11250 9650 39  0000 C CNN
+F 1 "1nF/10%/1V/0603" V 11550 9650 39  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11400 9650 39  0001 C CNN
+F 3 "" H 11400 9650 39  0001 C CNN
+	1    11400 9650
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

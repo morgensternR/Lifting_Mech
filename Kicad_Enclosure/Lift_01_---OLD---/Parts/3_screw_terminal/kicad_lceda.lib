@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# WJ124-3.81-6P
+#
+DEF WJ124-3.81-6P P 0 40 Y Y 1 F N
+F0 "P" 0 705 50 H V C CNN
+F1 "WJ124-3.81-6P" 0 905 50 H V C CNN
+F2 "kicad_lceda:CONN-TH_6P-P3.81_WJ124-3.81-6P" 0 505 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_70904.html" 0 305 50 H I C CNN
+F4 "C69810" 0 105 50 H I C CNN "SuppliersPartNumber"
+F5 "std:31f36159cf3f32fc7bc030821fbf46db" 0 105 50 H I C CNN "uuid"
+DRAW
+S -300 600 0 -600 1 1 6 f
+X 1 1 200 500 200 L 50 50 1 1 I 
+X 2 2 200 300 200 L 50 50 1 1 I 
+X 3 3 200 100 200 L 50 50 1 1 I 
+X 4 4 200 -100 200 L 50 50 1 1 I 
+X 5 5 200 -300 200 L 50 50 1 1 I 
+X 6 6 200 -500 200 L 50 50 1 1 I 
+ENDDRAW
+ENDDEF
+
+#
+#End Library

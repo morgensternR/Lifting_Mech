@@ -1,0 +1,64 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Info,SPICEPREFIX
+1,Unpolarized capacitor,C,C407,100nF/100V/1206,C_1206_3216Metric,1,,,
+2,Unpolarized capacitor,C,C204 C205 C206 C207 C208 C209 C210 C211 C213 C405 C410 C412 C413 C414 C415 C416 C417 C418 C420,100nF/10V/0603,C_0603_1608Metric,19,,,
+3,Unpolarized capacitor,C,C201 C401,10nF/10V/0603,C_0603_1608Metric,2,,,
+4,Unpolarized capacitor,C,C402 C403 C409 C411,10μF/10V/0805,C_0805_2012Metric,4,,,
+5,Unpolarized capacitor,C,C202 C203,15pF/10V/0603,C_0603_1608Metric,2,,,
+6,Unpolarized capacitor,C,C301 C302 C303,1nF/10%/1V/0603,C_0603_1608Metric,3,,,
+7,Unpolarized capacitor,C,C404,1μF/50V/0603,C_0603_1608Metric,1,,,
+8,Unpolarized capacitor,C,C212,"2,2µF/10V/0603",C_0603_1608Metric,1,,,
+9,Unpolarized capacitor,C,C406,"2,2μF/100V/1206",C_1206_3216Metric,1,,,
+10,Unpolarized capacitor,C,C408,22nF/50V/0603,C_0603_1608Metric,1,,,
+11,Unpolarized capacitor,C,C419,"4,7µF/10V/0603",C_0603_1608Metric,1,,,
+12,"Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x03_Female,CON_RS401,PinSocket_1x03_P2.54mm_Vertical_SMD_Pin1Right,PinSocket_1x03_P2.54mm_Vertical_SMD_Pin1Right,1,,Not assembled,
+13,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04_Female,CON_SWD201,PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Right,PinSocket_1x04_P2.54mm_Vertical_SMD_Pin1Right,1,,Not assembled,
+14,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x08_Female,CON_EXT301,PinSocket_1x08_P2.54mm_Vertical_SMD_Pin1Right,PinSocket_1x08_P2.54mm_Vertical_SMD_Pin1Right,1,,Not assembled,
+15,Schottky diode,D_Schottky,D401 D402 D404,MSS1P6,D_TUMD2,3,,,
+16,Schottky diode,D_Schottky,D405,SMBJ5A,D_SMB,1,,,
+17,Schottky diode,D_Schottky,D403,SMBJ70A,D_SMB,1,,,
+18,"Microchip SPI Serial EEPROM, DIP-8/SOIC-8/TSSOP-8",AT25xxx,IC403,AT25128B-SSHL-T,SO-8_3.9x4.9mm_P1.27mm,1,http://ww1.microchip.com/downloads/en/DeviceDoc/21832H.pdf,,
+19,,MK20DN512VLL10-Landungsbrücke_v20-eagle-import,IC201,MK20DN512VLL10,LQFP-100_14x14mm_P0.5mm,1,,,
+20,,_TMC_TE_RS232_SP202EEN-L_TR-Landungsbrücke_v20-eagle-import,IC402,SP202EEN-L/TR,SOIC-16_3.9x9.9mm_P1.27mm,1,,,
+21,,TI_LM5161-Landungsbrücke_v20-eagle-import,IC401,TI_LM5161,TSSOP-14-1EP_4.4x5mm_P0.65mm,1,,,
+22,,SAMTEC-HLE-122-02-X-DV_TMC-mod,INTERFACE301,FEMALE_HEADER_SMD_2.54_44_PINSHORTPADS_HOLES,Samtec_HLE-122-02-xxx-DV-BE-A_2x22_P2.54mm_Horizontal,1,,,
+23,USB 2.0-only Type-C Receptacle connector,USB_C_Receptacle_USB2.0,J201,USB-C,USB_C_Molex_1054500101_Horisontal,1,https://www.usb.org/sites/default/files/documents/usb_type-c.zip,,
+24,Inductor with iron core,L_Core_Iron,L401,"47μH/1,5A",L_Bourns-SRU8043,1,,,
+25,Ferrite bead,Ferrite_Bead,L201 L202,600Ω@100MHz/0603,L_0603_1608Metric,2,,,
+26,"800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223",LD1117S33TR_SOT223,LDO401,LD1117S33,SOT-223-3_TabPin2,1,http://www.diodes.com/datasheets/AP1117.pdf,,
+27,Light emitting diode,LED,LED202,GREEN,LED_0603_1608Metric,1,,,
+28,Light emitting diode,LED,LED201,RED,LED_0603_1608Metric,1,,,
+29,Resistor,R,R204,10kΩ/1%/0603,R_0603_1608Metric,1,,,
+30,Resistor,R,R402,150kΩ/1%/0805,R_0805_2012Metric,1,,,
+31,Resistor,R,R201 R202,1kΩ/1%/0603,R_0603_1608Metric,2,,,
+32,Resistor,R,R407,"2,2kΩ/1%/0603",R_0603_1608Metric,1,,,
+33,Resistor,R,R405,"3,3kΩ/1%/0,1W/0603",R_0603_1608Metric,1,,,
+34,Resistor,R,R404,"3,3kΩ/1%/0603",R_0603_1608Metric,1,,,
+35,Resistor,R,R301 R302 R303,"3,9kΩ/1%/0603",R_0603_1608Metric,3,,,
+36,Resistor,R,R401,30kΩ/1%/0805,R_0805_2012Metric,1,,,
+37,Resistor,R,R203 R206 R207 R211 R212,"4,7kΩ/1%/0603",R_0603_1608Metric,5,,,
+38,Resistor,R,R208,43kΩ/1%/0603,R_0603_1608Metric,1,,,
+39,Resistor,R,R209 R210,470kΩ/1%/0603,R_0603_1608Metric,2,,,
+40,Resistor,R,R205,"5,1kΩ/1%/0603",R_0603_1608Metric,1,,,R
+41,Resistor,R,R406,"6,8kΩ/1%/0603",R_0603_1608Metric,1,,,
+42,Resistor,R,R403,"68kΩ/1%/0,1W/0805",R_0805_2012Metric,1,,,
+43,Resistor,R,R304 R305 R306,"7,5kΩ/1%/0603",R_0603_1608Metric,3,,,
+44,"4 resistor network, parallel topology, DIP package",R_Pack04,RN301 RN302 RN303 RN304 RN305 RN306 RN307 RN308 RN309 RN310 RN311,100Ω,R_Array_Concave_4x0603,11,,Not assembled,
+45,,RNXV-DS-Landungsbrücke_v20-eagle-import,RN171XV/RN42XV401,Not assembled,Radio_module,1,,,
+46,,SRV05-4-Landungsbrücke_v20-eagle-import,SUPP307,Not assembled,SOT-23-6,1,,,
+47,,SRV05-4-Landungsbrücke_v20-eagle-import,SUPP201 SUPP301 SUPP302 SUPP303 SUPP304 SUPP305 SUPP306 SUPP308 SUPP309 SUPP310 SUPP311 SUPP312,SRV05-4,SOT-23-6,12,,,
+48,"Four pin crystal, GND on pins 2 and 4",Crystal_GND24,Y201,TSX-3225 16.0000MF09Z-AC0,Crystal_SMD_SeikoEpson_FA238V-4Pin_3.2x2.5mm,1,,,
+
+
+
+
+
+Component Groups:,48
+Component Count:,107
+Fitted Components:,107
+Number of PCBs:,1
+Total components:,107
+Schematic Version:,2.0
+Schematic Date:,2019-05-01
+BoM Date:,03.06.2019 15:07:45
+Schematic Source:,C:\Users\Kurs\Work\Landungsbrcke v2.0\Kicad import test\CAD\Landungsbrcke_v20.sch
+KiCad Version:,Eeschema (5.1.2)-1

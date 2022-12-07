@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Lift_02_Symbols)(type Legacy)(uri "${KIPRJMOD}/Symbols and Footprints/Lift_02_Symbols.lib")(options "")(descr ""))
+  (lib (name 0_Lift_02_Symbols)(type Legacy)(uri "${KIPRJMOD}/Symbols and Footprints/0_Lift_02_Symbols.lib")(options "")(descr ""))
+  (lib (name Lift_02-rescue)(type Legacy)(uri ${KIPRJMOD}/Lift_02-rescue.lib)(options "")(descr ""))
+)

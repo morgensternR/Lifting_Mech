@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# SN74LV1T34DCKR
+#
+DEF SN74LV1T34DCKR U 0 40 Y Y 1 F N
+F0 "U" 0 470 50 H V C CNN
+F1 "SN74LV1T34DCKR" 0 670 50 H V C CNN
+F2 "kicad_lceda:SC-70-5_L2.1-W1.3-P0.65-LS2.1-BR" 0 270 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_79677.html" 0 70 50 H I C CNN
+F4 "C78541" 0 -130 50 H I C CNN "SuppliersPartNumber"
+F5 "std:42c9f23cc74c4c448ced85dff3c1899a" 0 -130 50 H I C CNN "uuid"
+DRAW
+S -200 250 200 -200 1 1 6 N
+C -175 -175 15 1 1 6 F
+X NC 1 -100 -300 100 U 50 50 1 1 I 
+X A 2 0 -300 100 U 50 50 1 1 I 
+X GND 3 100 -300 100 U 50 50 1 1 I 
+X Y 4 100 350 100 D 50 50 1 1 I 
+X VCC 5 -100 350 100 D 50 50 1 1 I 
+ENDDRAW
+ENDDEF
+
+#
+#End Library

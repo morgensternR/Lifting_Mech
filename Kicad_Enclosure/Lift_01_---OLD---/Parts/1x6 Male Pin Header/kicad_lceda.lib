@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Z-211-0611-0021-001
+#
+DEF Z-211-0611-0021-001 H 0 40 Y Y 1 F N
+F0 "H" 0 450 50 H V C CNN
+F1 "Z-211-0611-0021-001" 0 650 50 H V C CNN
+F2 "kicad_lceda:HDR-TH_6P-P2.54-V_Z-211-0611-0021-001" 0 250 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_213064.html" 0 50 50 H I C CNN
+F4 "C190819" 0 -150 50 H I C CNN "SuppliersPartNumber"
+F5 "std:de05373244694cd69375528dbda927a2" 0 -150 50 H I C CNN "uuid"
+DRAW
+S -150 350 250 -350 1 1 6 N
+C -100 300 15 1 1 6 F
+X 1 1 -250 250 100 R 50 50 1 1 I 
+X 2 2 -250 150 100 R 50 50 1 1 I 
+X 3 3 -250 50 100 R 50 50 1 1 I 
+X 4 4 -250 -50 100 R 50 50 1 1 I 
+X 5 5 -250 -150 100 R 50 50 1 1 I 
+X 6 6 -250 -250 100 R 50 50 1 1 I 
+ENDDRAW
+ENDDEF
+
+#
+#End Library

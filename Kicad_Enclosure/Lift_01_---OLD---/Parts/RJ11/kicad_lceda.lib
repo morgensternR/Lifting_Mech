@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# PCB-6P6C-90
+#
+DEF PCB-6P6C-90 RJ 0 40 Y N 1 F N
+F0 "RJ" 0 400 50 H V C CNN
+F1 "PCB-6P6C-90" 0 600 50 H V C CNN
+F2 "kicad_lceda:RJ11-TH_PCB-6P6C-90" 0 200 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_203237.html" 0 0 50 H I C CNN
+F4 "C189750" 0 -200 50 H I C CNN "SuppliersPartNumber"
+F5 "std:b0744a81ab3b40a89a286e2b8b0ab87e" 0 -200 50 H I C CNN "uuid"
+DRAW
+S -300 300 200 -100 1 1 6 N
+X 3 3 0 -300 200 U 50 50 1 1 I 
+X 4 4 -100 -300 200 U 50 50 1 1 I 
+P 9 1 1 6 100 -100 100 100 0 100 0 200 -100 200 -100 100 -200 100 -200 0 -200 -100 N
+X 1 1 200 -300 200 U 50 50 1 1 I 
+X 2 2 100 -300 200 U 50 50 1 1 I 
+X 5 5 -200 -300 200 U 50 50 1 1 I 
+X 6 6 -300 -300 200 U 50 50 1 1 I 
+ENDDRAW
+ENDDEF
+
+#
+#End Library

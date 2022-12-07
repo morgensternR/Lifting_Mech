@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# NC4FBH
+#
+DEF NC4FBH PS 0 40 Y Y 1 F N
+F0 "PS" 0 400 50 H V C CNN
+F1 "NC4FBH" 0 600 50 H V C CNN
+F2 "kicad_lceda:CONN-TH_NC4FBH" 0 200 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_342465.html" 0 0 50 H I C CNN
+F4 "C368478" 0 -200 50 H I C CNN "SuppliersPartNumber"
+F5 "std:240b847a4e2e4ed7980c8865ae95f7a5" 0 -200 50 H I C CNN "uuid"
+DRAW
+S -100 300 100 -300 1 1 6 N
+C -50 250 15 1 1 6 F
+X 1 1 -200 200 100 R 50 50 1 1 I 
+X 2 2 -200 100 100 R 50 50 1 1 I 
+X 3 3 -200 0 100 R 50 50 1 1 I 
+X 4 4 -200 -100 100 R 50 50 1 1 I 
+X 5 5 -200 -200 100 R 50 50 1 1 I 
+ENDDRAW
+ENDDEF
+
+#
+#End Library

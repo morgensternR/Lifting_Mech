@@ -1,0 +1,10 @@
+(module PAD_R1.2 (layer F.Cu) (tedit 0)
+  (fp_text reference TP13 (at 0 -1.27) (layer F.SilkS) hide
+    (effects (font (size 0.665 0.665) (thickness 0.056)))
+  )
+  (fp_text value "NOT ASSEMBLE" (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (pad P$1 smd roundrect (at 0 0) (size 1.2 1.2) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.5)
+    (solder_mask_margin 0.1))
+)

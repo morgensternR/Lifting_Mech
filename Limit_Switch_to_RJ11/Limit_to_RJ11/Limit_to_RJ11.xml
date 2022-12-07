@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Cir\Documents\GitHub\cq-Designs_Update\CHEAPO LIFTING MECH\V2 Wider\Limit_Switch_to_Phone\Limit_to_RJ11\Limit_to_RJ11.sch</source>
+    <date>2/1/2022 5:03:38 PM</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Limit_to_RJ11.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="RJ1">
+      <value>PCB-6P6C-90</value>
+      <footprint>Connector:RJ11-TH_PCB-6P6C-90</footprint>
+      <datasheet>http://www.szlcsc.com/product/details_203237.html</datasheet>
+      <fields>
+        <field name="LCSC">C189750</field>
+        <field name="uuid">std:b0744a81ab3b40a89a286e2b8b0ab87e</field>
+      </fields>
+      <libsource lib="0My_Library" part="PCB-6P6C-90" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F9B2AE</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x06_Female</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F9C655</tstamp>
+    </comp>
+    <comp ref="MH1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="0My_Library" part="MountingHole" description="Generic Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F9E9A6</tstamp>
+    </comp>
+    <comp ref="MH2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="0My_Library" part="MountingHole" description="Generic Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F9F798</tstamp>
+    </comp>
+    <comp ref="MH3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="0My_Library" part="MountingHole" description="Generic Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F9FC9A</tstamp>
+    </comp>
+    <comp ref="MH4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="0My_Library" part="MountingHole" description="Generic Mounting Hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61FA013A</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="0My_Library" part="MountingHole">
+      <description>Generic Mounting Hole</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+        <fp>Mounting*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MH</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="0My_Library" part="PCB-6P6C-90">
+      <docs>http://www.szlcsc.com/product/details_203237.html</docs>
+      <fields>
+        <field name="Reference">RJ</field>
+        <field name="Value">PCB-6P6C-90</field>
+        <field name="Footprint">kicad_lceda:RJ11-TH_PCB-6P6C-90</field>
+        <field name="LCSC">C189750</field>
+        <field name="uuid">std:b0744a81ab3b40a89a286e2b8b0ab87e</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="0My_Library">
+      <uri>C:/Users/Cir/Documents/Kicad/MainLibrary/0My_Library.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>E:\Program Files\KiCAD\share\kicad\library/Connector.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J1-Pad5)">
+      <node ref="RJ1" pin="5"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="2" name="VS">
+      <node ref="RJ1" pin="3"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="3" name="GNDPWR">
+      <node ref="RJ1" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(J1-Pad4)">
+      <node ref="RJ1" pin="4"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="5" name="Net-(J1-Pad6)">
+      <node ref="RJ1" pin="6"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="6" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="RJ1" pin="1"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="MH1" pin="1"/>
+      <node ref="MH2" pin="1"/>
+      <node ref="MH3" pin="1"/>
+      <node ref="MH4" pin="1"/>
+    </net>
+  </nets>
+</export>

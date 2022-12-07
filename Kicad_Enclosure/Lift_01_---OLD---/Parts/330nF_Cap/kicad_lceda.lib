@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# NM1206B334K101CEGN
+#
+DEF NM1206B334K101CEGN C 0 40 N N 1 F N
+F0 "C" 0 180 50 H V C CNN
+F1 "NM1206B334K101CEGN" 0 380 50 H V C CNN
+F2 "kicad_lceda:C1206" 0 -20 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_749585.html" 0 -220 50 H I C CNN
+F4 "C710478" 0 -420 50 H I C CNN "SuppliersPartNumber"
+F5 "std:dfbb5ee973994057aee6e66d85389601" 0 -420 50 H I C CNN "uuid"
+DRAW
+P 2 1 1 6 -20 -80 -20 80 N
+X 1 1 -200 0 100 R 50 50 1 1 I 
+P 2 1 1 6 100 0 20 0 N
+P 2 1 1 6 20 80 20 -80 N
+X 2 2 200 0 100 L 50 50 1 1 I 
+P 2 1 1 6 -20 0 -100 0 N
+ENDDRAW
+ENDDEF
+
+#
+#End Library

@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Header-Male-2.54_1x8
+#
+DEF Header-Male-2.54_1x8 H 0 40 N Y 1 F N
+F0 "H" 0 550 50 H V C CNN
+F1 "Header-Male-2.54_1x8" 0 750 50 H V C CNN
+F2 "kicad_lceda:HDR-TH_8P-P2.54-V-M" 0 350 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_125656.html" 0 150 50 H I C CNN
+F4 "C124381" 0 -50 50 H I C CNN "SuppliersPartNumber"
+F5 "std:c99800e04af1474aaf1069c95dc7e57a" 0 -50 50 H I C CNN "uuid"
+DRAW
+S -100 450 150 -450 1 1 6 N
+C -70 420 15 1 1 6 F
+X 1 1 -200 350 100 R 50 50 1 1 I 
+X 2 2 -200 250 100 R 50 50 1 1 I 
+X 3 3 -200 150 100 R 50 50 1 1 I 
+X 4 4 -200 50 100 R 50 50 1 1 I 
+X 5 5 -200 -50 100 R 50 50 1 1 I 
+X 6 6 -200 -150 100 R 50 50 1 1 I 
+X 7 7 -200 -250 100 R 50 50 1 1 I 
+X 8 8 -200 -350 100 R 50 50 1 1 I 
+ENDDRAW
+ENDDEF
+
+#
+#End Library

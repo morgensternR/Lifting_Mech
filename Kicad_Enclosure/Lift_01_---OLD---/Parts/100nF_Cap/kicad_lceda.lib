@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# CL21B104KCFNNNE
+#
+DEF CL21B104KCFNNNE C 0 40 N N 1 F N
+F0 "C" 0 180 50 H V C CNN
+F1 "CL21B104KCFNNNE" 0 380 50 H V C CNN
+F2 "kicad_lceda:C0805" 0 -20 50 H I C CNN
+F3 "http://www.szlcsc.com/product/details_28983.html" 0 -220 50 H I C CNN
+F4 "C28233" 0 -420 50 H I C CNN "SuppliersPartNumber"
+F5 "std:bdea432cad40be0e7998e026eafc1b06" 0 -420 50 H I C CNN "uuid"
+DRAW
+P 2 1 1 6 -20 80 -20 -80 N
+P 2 1 1 6 20 80 20 -80 N
+X 1 1 -150 0 100 R 50 50 1 1 I 
+X 2 2 150 0 100 L 50 50 1 1 I 
+P 2 1 1 6 -50 0 -20 0 N
+P 2 1 1 6 20 0 50 0 N
+ENDDRAW
+ENDDEF
+
+#
+#End Library
